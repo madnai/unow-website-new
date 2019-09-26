@@ -1,8 +1,8 @@
 import React, { useRef, useState, useEffect } from 'react';
 
-import { MasonryDiv, Col } from './masonry.css';
+import { MasonryDiv, Col } from './homepagegallery.css';
 
-export default function Masonry({ children, minWidth = 300 }) {
+export default function HomepageGallery({ children, minWidth = 300 }) {
   const cols = [];
   const ref = useRef();
   const [numCols, setNumCols] = useState(3);
