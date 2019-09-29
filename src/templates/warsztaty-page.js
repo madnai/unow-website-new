@@ -5,125 +5,152 @@ import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+import styled from 'styled-components'
 
-// export const WarsztatyPageTemplate = ({
-//   image,
-//   title,
-//   heading,
-//   description,
-//   intro,
-//   main, zxcvbn m
-//   testimonials,
-//   fullImage,
-//   pricing,
-// }) => (
-//   <div className="content">
-//     <div
-//       className="full-width-image-container margin-top-0"
-//       style={{
-//         backgroundImage: `url(${
-//           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-//         })`,
-//       }}
-//     >
-//       <h2
-//         className="has-text-weight-bold is-size-1"
-//         style={{
-//           boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-//           backgroundColor: '#f40',
-//           color: 'white',
-//           padding: '1rem',
-//         }}
-//       >
-//         {title}
-//       </h2>
-//     </div>
-//     <section className="section section--gradient">
-//       <div className="container">
-//         <div className="section">
-//           <div className="columns">
-//             <div className="column is-7 is-offset-1">
-//               <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-//               <p>{description}</p>
-//             </div>
-//           </div>
-//           <div className="columns">
-//             <div className="column is-10 is-offset-1">
-//               <Features gridItems={intro.blurbs} />
-//               <div className="columns">
-//                 <div className="column is-7">
-//                   <h3 className="has-text-weight-semibold is-size-3">
-//                     {main.heading}
-//                   </h3>
-//                   <p>{main.description}</p>
-//                 </div>
+export const ImgDiv = styled.div`
+display:flex;
+opacity: 0.6;
+align-items: center;
+height: 250px;
+font-size:30px;
+color:red;
+font-weight: bold;
+justify-content:center;
+
+:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+`
+
+
+class WarsztatyPage extends React.Component {
+
+  
+
+  constructor(props) {
+    super(props)
+  }
+
+  state = {hovered: false}
+
+  render() {
+    return (
+      
+      <Layout>
+        <div className="section">
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <div className="tile">
+                  <h1 className="title">
+                    {this.props.data.markdownRemark.frontmatter.title}
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="section">
+          <div className="container">
+            <div className="columns">
+              <div className="column is-half ">
+                <ImgDiv style={{
+                             backgroundImage: `url(${this.props.data.markdownRemark.frontmatter.image1.childImageSharp.fluid.src})`,
+                            }} >charytatywne</ImgDiv>
+              </div>
+              <div className="column is-half">
+              <ImgDiv className={this.state.hovered ? 'hovered' : ''} style={{
+                                         backgroundImage: `url(${this.props.data.markdownRemark.frontmatter.image2.childImageSharp.fluid.src})`
+                                      }}
+                                        >indywidualne</ImgDiv>            
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </Layout>
+    )
+  }
+}
+// const WarsztatyPage = ({data}) => {
+//    const { frontmatter } = data.markdownRemark
+
+//    function toggleHover(e) {
+//       return 0;
+//    }; 
+
+//   return (
+//     <Layout>
+//       {/* <ProductPageTemplate
+//         image={frontmatter.image}
+//         title={frontmatter.title}
+//         heading={frontmatter.heading}
+//         description={frontmatter.description}
+//         intro={frontmatter.intro}
+//         main={frontmatter.main}
+//         testimonials={frontmatter.testimonials}
+//         fullImage={frontmatter.full_image}
+//         pricing={frontmatter.pricing}
+//       /> */}
+//       <div className="section">
+//         <div className="columns">
+//           <div className="column is-10 is-offset-1">
+//             <div className="content">
+//               <div className="tile">
+//                 <h1 className="title">
+//                   {frontmatter.title}
+//                 </h1>
 //               </div>
-//               <div className="tile is-ancestor">
-//                 <div className="tile is-vertical">
-//                   <div className="tile">
-//                     <div className="tile is-parent is-vertical">
-//                       <article className="tile is-child">
-//                         <PreviewCompatibleImage imageInfo={main.image1} />
-//                       </article>
-//                     </div>
-//                     <div className="tile is-parent">
-//                       <article className="tile is-child">
-//                         <PreviewCompatibleImage imageInfo={main.image2} />
-//                       </article>
-//                     </div>
-//                   </div>
-//                   <div className="tile is-parent">
-//                     <article className="tile is-child">
-//                       <PreviewCompatibleImage imageInfo={main.image3} />
-//                     </article>
-//                   </div>
-//                 </div>
-//               </div>
-//               <Testimonials testimonials={testimonials} />
-//               <div
-//                 className="full-width-image-container"
-//                 style={{
-//                   backgroundImage: `url(${
-//                     fullImage.childImageSharp
-//                       ? fullImage.childImageSharp.fluid.src
-//                       : fullImage
-//                   })`,
-//                 }}
-//               />
-//               <h2 className="has-text-weight-semibold is-size-2">
-//                 {pricing.heading}
-//               </h2>
-//               <p className="is-size-5">{pricing.description}</p>
-//               <Pricing data={pricing.plans} />
 //             </div>
 //           </div>
 //         </div>
 //       </div>
-//     </section>
-//   </div>
-// )
-
-
-const WarsztatyPage = ({data}) => {
-   const { frontmatter } = data.markdownRemark
-
-  return (
-    <Layout>
-      {/* <ProductPageTemplate
-        image={frontmatter.image}
-        title={frontmatter.title}
-        heading={frontmatter.heading}
-        description={frontmatter.description}
-        intro={frontmatter.intro}
-        main={frontmatter.main}
-        testimonials={frontmatter.testimonials}
-        fullImage={frontmatter.full_image}
-        pricing={frontmatter.pricing}
-      /> */}
-      {frontmatter.title}
-    </Layout>
-  )
-}
+//       <div className="section">
+//         <div className="container">
+//           <div className="columns">
+//             <div className="column is-half ">
+//               {console.log(frontmatter.image1.childImageSharp.fluid.src)}
+//               {/* <PreviewCompatibleImage imageInfo={{
+//                 image: frontmatter.image1,
+//                 imageStyle: {opacity: '0.6'}
+//               }} /> */}
+//               <div id="imgg1" style={{display: 'flex',
+//                           zIndex: '1',
+//                           alignItems: 'center', 
+//                           opacity: '0.6',
+//                           height: '250px',
+//                           justifyContent: 'center', 
+//                           fontSize: '30px', 
+//                           color: 'red', 
+//                           fontWeight: 'bold',
+//                           backgroundImage: `url(${frontmatter.image1.childImageSharp.fluid.src})`,
+//                           ":hover": { cursor: "pointer", backgroundColor: "#ffff9b", color: "#fd0808" }}}
+//                           onClick={() => alert('asdas')}
+//                           >charytatywne</div>
+//             </div>
+//             <div className="column is-half">
+//               {/* <PreviewCompatibleImage imageInfo={{
+//                 image: frontmatter.image2,
+//                 imageStyle: {opacity: '0.6'}
+//               }} /> */}
+//             <div style={{display: 'flex',
+//                                       alignItems: 'center', 
+//                                       opacity: '0.6',
+//                                       height: '250px',
+//                                       justifyContent: 'center', 
+//                                       fontSize: '30px', 
+//                                       color: 'red', 
+//                                       fontWeight: 'bold',
+//                                       backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}>indywidualne</div>            
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+      
+//     </Layout>
+//   )
+// }
 
 export default WarsztatyPage
 
@@ -132,6 +159,20 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        image1 {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+        image2 {
+          childImageSharp {
+            fluid(maxWidth: 2048, quality: 100) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
       }
     }
   }
