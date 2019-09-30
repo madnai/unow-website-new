@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import HomepageGallery from '../components/HomepageGallery';
+import MasonryGallery from '../components/MasonryGallery';
 
 export const IndexPageTemplate = ({
   mainpitch
@@ -34,7 +34,7 @@ export const IndexPageTemplate = ({
     </section>
     
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
-      <HomepageGallery>
+      <MasonryGallery>
         <img src="https://unsplash.it/700/500?image=1" className="masonry-img" alt="Masonry Brick #1" width="100%" height="400px;"/>
         <img src="https://unsplash.it/700/900?image=25" className="masonry-img" alt="Masonry Brick #2" width="100%" height="200px;"/>     
         <img src="https://unsplash.it/700/900?image=46" className="masonry-img" alt="Masonry Brick #3" width="100%" height="220px"/>     
@@ -43,8 +43,8 @@ export const IndexPageTemplate = ({
         <img src="https://unsplash.it/700/900?image=78" className="masonry-img" alt="Masonry Brick #6" width="100%" height="450px"/>     
         <img src="https://unsplash.it/700/900?image=34" className="masonry-img" alt="Masonry Brick #7" width="100%" height="150px"/>     
         <img src="https://unsplash.it/700/900?image=33" className="masonry-img" alt="Masonry Brick #8" width="100%" height="320px"/>    
-        <img src="https://unsplash.it/700/900?image=2" className="masonry-img" alt="Masonry Brick #8" width="100%" height="280px"/>     
-      </HomepageGallery>
+        <img src="https://unsplash.it/700/900?image=2" className="masonry-img" alt="Masonry Brick #8" width="100%" height="280px" style={{height: '145px'}}/>     
+      </MasonryGallery>
     </section>
   </div>
 )

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import Testimonials from '../components/Testimonials'
@@ -47,13 +47,17 @@ const WarsztatyPage = ({data}) => {
           <div className="container">
             <div className="columns">
               <div className="column is-half ">
-                <ImgDiv style={{
+                <Link to="/warsztaty/charytatywne">
+                  <ImgDiv style={{
                              backgroundImage: `url(${frontmatter.image1.childImageSharp.fluid.src})`,
                             }} >charytatywne</ImgDiv>
+                </Link> 
               </div>
               <div className="column is-half">
-                <ImgDiv style={{backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}
-                                >indywidualne</ImgDiv>            
+                <Link to="/warsztaty/indywidualne">
+                  <ImgDiv style={{backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}
+                                  >indywidualne</ImgDiv>
+                </Link>            
               </div>
             </div>
           </div>
