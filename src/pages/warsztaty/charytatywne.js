@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../../components/Layout'
 import MasonryGallery from '../../components/MasonryGallery'
+import { Link } from 'gatsby'
 
 
 export default () => {
@@ -54,7 +55,7 @@ export default () => {
             <div className="columns is-centered">
               <div className="column has-text-centered is-4">
               <div className="field">
-                <p className="button is-pulled-left" style={{marginRight: '15px'}}>Wiecej informacji</p>
+              <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" style={{marginRight: '15px'}}>Wiecej informacji</p></Link>
                 <p className="button is-pulled-right is-danger">Jestem zainteresowany</p>
               </div>
               </div>
