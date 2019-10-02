@@ -35,8 +35,8 @@ export default () => {
         </section>
         <section>
           <div className="container">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
+            <div className="columns is-mobile">
+              <div className="column is-10 is-offset-1 ">
                 <div className="content">
                   <p style={{ textAlign: 'justify'}}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra est enim, tempus pulvinar augue hendrerit euismod. Aliquam ullamcorper ante at magna cursus lacinia. Aliquam id auctor leo. Suspendisse ante ipsum, tempus sit amet finibus sed, consequat id nibh. Phasellus ac enim auctor, vehicula justo quis, tempus ligula. Mauris iaculis enim in turpis pulvinar varius. Donec aliquet, dolor nec auctor fringilla, erat risus semper turpis, id dapibus metus leo non elit. Sed turpis ipsum, vehicula sit amet erat sed, consequat efficitur leo. Fusce vulputate auctor urna, id cursus augue luctus ac. Quisque varius magna in ipsum rhoncus, id commodo dolor posuere. Mauris euismod purus augue, mollis ornare erat imperdiet a.
