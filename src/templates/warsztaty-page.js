@@ -47,17 +47,13 @@ const WarsztatyPage = ({data}) => {
           <div className="container">
             <div className="columns">
               <div className="column is-half ">
-                <Link to="/warsztaty/charytatywne">
-                  <ImgDiv style={{
+                <Link to="/warsztaty/charytatywne"><ImgDiv style={{
                              backgroundImage: `url(${frontmatter.image1.childImageSharp.fluid.src})`,
-                            }} >charytatywne</ImgDiv>
-                </Link> 
+                            }} >charytatywne</ImgDiv></Link> 
               </div>
               <div className="column is-half">
-                <Link to="/warsztaty/indywidualne">
-                  <ImgDiv style={{backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}
-                                  >indywidualne</ImgDiv>
-                </Link>            
+              <Link to="/warsztaty/indywidualne"><ImgDiv style={{backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}
+                                >indywidualne</ImgDiv></Link>            
               </div>
             </div>
           </div>
