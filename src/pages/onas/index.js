@@ -1,7 +1,6 @@
 import React from 'react'
 import Layout from '../../components/Layout'
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
-import { Link } from 'gatsby';
 
 
 
