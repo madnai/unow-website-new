@@ -9,14 +9,15 @@ export default () => {
        <div className="columns">
          <div className="column is-4 is-offset-1">
           <h1 style={{fontSize: '40px', fontWeight: 'bold', marginTop: '100px'}}>przyjaciele</h1>
-          <p style={{fontStyle: 'italic'}}>Czynnosc wykonywana dla relaksu w <br></br>
-            czasie wolnym o obowiązków.<br></br>
-            Moze łączyć się ze zdobywaniem<br></br>
-            wiedzy w danej dziedzinie.
+          <p style={{fontStyle: 'italic'}}>
+          Osoby pozostające z kimś w bliskich,<br></br>
+           serdecznych stosunkach. Ludzie na<br></br>
+            których można polegać i liczyć na ich<br></br>
+             wsparcie. 
           </p>
          </div>
          <div className="column is-7">
-           <img src='/img/pasja.png'></img>
+           <img src='/img/przyjaciele.png'></img>
          </div>
        </div>
      </div>

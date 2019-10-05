@@ -9,14 +9,16 @@ export default () => {
        <div className="columns">
          <div className="column is-4 is-offset-1">
           <h1 style={{fontSize: '40px', fontWeight: 'bold', marginTop: '100px'}}>podróze</h1>
-          <p style={{fontStyle: 'italic'}}>Czynnosc wykonywana dla relaksu w <br></br>
-            czasie wolnym o obowiązków.<br></br>
-            Moze łączyć się ze zdobywaniem<br></br>
-            wiedzy w danej dziedzinie.
+          <p style={{fontStyle: 'italic'}}>
+          Z definicji wiążą się ze zmiana miejsca<br></br>
+           pobytu na okres stały lub tymczasowy.<br></br>
+            Kojarzone są z odkrywaniem i<br></br>
+             poznawaniem nowych kultur, przyrody i<br></br> 
+             ludzi. 
           </p>
          </div>
          <div className="column is-7">
-           <img src='/img/pasja.png'></img>
+           <img src='/img/podroze.png'></img>
          </div>
        </div>
      </div>
