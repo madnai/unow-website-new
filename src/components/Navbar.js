@@ -59,17 +59,17 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/">
+            <div className="navbar-start has-text-centered" style={{fontFamily: 'Lato'}}>
+              <Link className="navbar-item" to="/" style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                 HOME
               </Link>
-              <Link className="navbar-item" to="/onas">
+              <Link className="navbar-item" to="/onas" style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                 O NAS
               </Link>
-              <Link className="navbar-item" to="/warsztaty">
+              <Link className="navbar-item" to="/warsztaty" style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                 WARSZTATY
               </Link>
-              <Link className="navbar-item" to="/planner">
+              <Link className="navbar-item" to="/planner" style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}> 
                 PLANNER
               </Link>
               {/* <Link className="navbar-item" to="/contact/examples">

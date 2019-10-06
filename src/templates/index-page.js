@@ -36,15 +36,18 @@ export const IndexPageTemplate = ({
     
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery >
-        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/500?image=1" className="masonry-img" alt="Masonry Brick #1" width="100%" height="400px;"/></Link>
-        <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=25" className="masonry-img" alt="Masonry Brick #2" width="100%" height="200px;"/>     </Link>
-        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=46" className="masonry-img" alt="Masonry Brick #3" width="100%" height="220px"/> </Link>    
-        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=38" className="masonry-img" alt="Masonry Brick #4" width="100%" height="220px"/> </Link>    
-        <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=57" className="masonry-img" alt="Masonry Brick #5" width="100%" height="160px"/> </Link>    
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=78" className="masonry-img" alt="Masonry Brick #6" width="100%" height="450px"/> </Link>    
-        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=34" className="masonry-img" alt="Masonry Brick #7" width="100%" height="150px"/> </Link>    
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=33" className="masonry-img" alt="Masonry Brick #8" width="100%" height="320px"/> </Link>   
-        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}><img src="https://unsplash.it/700/900?image=2" className="masonry-img" alt="Masonry Brick #8" width="100%" height="280px" style={{height: '145px'}}/>   </Link>  
+      <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/praca.jpg" className="masonry-img" alt="praca" width="100%" height="200px;"/>     </Link>
+        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><img src="/img/pasja.jpg" className="masonry-img" alt="pasja" width="100%" height="400px;"/></Link>
+        <Link to="/" style={{lineHeight: '0'}}><img src="/img/ja_top.jpg" className="masonry-img" alt="Masonry Brick #3" width="100%" height="220px"/> </Link>    
+        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><img src="/img/pieniadze.jpg" className="masonry-img" alt="pieniadze" width="100%" height="220px"/> </Link>    
+        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}><img src="/img/milosc.jpg" className="masonry-img" alt="Masonry Brick #5" width="100%" height="160px"/> </Link>    
+        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}><img src="/img/przyjaciele.jpg" className="masonry-img" alt="przyjaciele" width="100%" height="450px"/> </Link>    
+        <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="/img/ja.jpg" className="masonry-img" alt="Masonry Brick #7" width="100%" height="150px"/> </Link>    
+        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><img src="/img/wiedza.jpg" className="masonry-img" alt="wiedza" width="100%" height="320px"/> </Link>   
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/rodzina.jpg" className="masonry-img" alt="Masonry Brick #8" width="100%" height="400px" style={{height: '0px'}} />   </Link> 
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/rodzina.jpg" className="masonry-img" alt="Masonry Brick #8" width="100%" height="400px"  />   </Link>  
+        <Link to="/" style={{lineHeight: '0'}}><img src="/img/ja_bottom.jpg" className="masonry-img" alt="Masonry Brick #8" width="100%" height="400px"  />   </Link> 
+        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}><img src="/img/podroze.jpg" className="masonry-img" alt="podroze" width="100%" height="400px"  />   </Link>   
       </MasonryGallery>
     </section>
   </div>

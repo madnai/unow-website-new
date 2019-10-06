@@ -10,9 +10,9 @@ export default () => {
       <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
         <div className="columns is-centered">
           <div className="column has-text-centered is-narrow">
-            <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px'}}>
+            <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px', fontFamily: 'Anton', letterSpacing: '2px'}}>
               <span style={{color: '#DA193E'}}>D</span>AMIAN</h1>
-            <h1 class="title" style={{textAlign: 'right'}}>PODRAZA</h1>
+            <h1 class="title" style={{textAlign: 'right', fontFamily: 'Anton', letterSpacing: '2px'}}>PODRAZA</h1>
             <p style={{textAlign: 'right', fontSize: '13px', fontStyle: 'italic'}}>Na co dzien lubi zmagac sie z <br></br>
                                             z problemami jako programista.<br></br>
                                             Cierpliwy tester róznych<br></br>
@@ -41,9 +41,9 @@ export default () => {
             <img src="/img/kasia-and-damian.png" width="550px"></img>
           </div>
           <div className="column has-text-centered is-narrow">
-            <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px'}}>
+            <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Anton', letterSpacing: '2px'}}>
               <span style={{color: '#DA193E'}}>K</span>ASIA</h1>
-            <h1 class="title" style={{textAlign: 'left'}}>STEFAŃSKA</h1>
+            <h1 class="title" style={{textAlign: 'left', fontFamily: 'Anton', letterSpacing: '2px'}}>STEFAŃSKA</h1>
             <p style={{textAlign: 'left', fontSize: '13px', fontStyle: 'italic'}}>Absolwentka Organizacji Produkcji <br></br>
                                             Filmowej i Telewizyjnej w Łódzkiej<br></br>
                                             Szkole Flmowej oraz Aktorstwa w<br></br>
