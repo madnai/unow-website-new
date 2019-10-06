@@ -16,7 +16,7 @@ export default () => {
           </p>
          </div>
          <div className="column is-7">
-           <img src='/img/pieniadze.png'></img>
+           <img src='/img/kategorie/pieniadze.png'></img>
          </div>
        </div>
      </div>

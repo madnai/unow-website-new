@@ -23,12 +23,24 @@ export default () => {
           <div className="container">
             <div className="columns is-centered">
               <div className="column is-5  ">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus leo metus, iaculis sit amet enim et, congue rhoncus nisi. Donec sagittis hendrerit mi. Pellentesque tortor massa, aliquet a venenatis sit amet, auctor vel ante. Sed posuere neque eros, ut rhoncus elit cursus vel. Mauris non ante sed felis consequat vulputate. Quisque pretium arcu at velit volutpat, accumsan tincidunt mi pretium. Etiam eget eleifend tortor. Suspendisse ultricies id ex quis convallis. Integer leo ipsum, mattis sit amet molestie eget, tempus vel odio. Fusce ut ultrices eros, non ullamcorper ligula. Aliquam vitae vulputate orci. Suspendisse hendrerit iaculis sapien, ut dignissim neque scelerisque eget. Nunc vel nulla ac nulla tempus iaculis ac vitae dui. Pellentesque placerat sapien lectus.
+              <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Co to</span> za warsztaty? </span><br></br>
+              Warsztaty UNOW to tworzenie tablic marzeń, celów i pragnień. To spotkanie, podczas którego uczestnicy mają szansę w ciągu czterech godzin zastanowić czego naprawdę pragną w dziewięciu stworzonych kategoriach życia. A następnie dostają wiedzę oraz instrukcje która pozwala zrozumieć przybliżenie się realizacji marzeń. <br></br><br></br>
 
-            Etiam eget nibh luctus sapien posuere molestie. Etiam posuere eu dui eget feugiat. Aenean pretium fermentum ultricies. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus scelerisque odio leo, ac imperdiet ex vulputate quis. Etiam tincidunt nisl in leo efficitur viverra. Duis consectetur tincidunt consectetur. Quisque nec tellus dolor. Ut sagittis lacinia ex sit amet aliquam. Proin eget efficitur odio. Nulla molestie faucibus augue, sit amet laoreet nibh bibendum sit amet. Nunc facilisis libero quis sem bibendum faucibus. Vestibulum quis egestas erat. Aenean vel aliquet lectus. Pellentesque malesuada, orci sed iaculis luctus, dolor urna semper tellus, sed tincidunt turpis massa lacinia dui.
+              <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Do kogo</span> są skierowane? </span><br></br>
+              Warsztaty UNOW skierowane są do wszystkich ludzi, którzy chcą zastanowić się czego pragną od życia oraz takich którzy chcą przybliżyć się do poznania i spełnienia swoich marzeń.<br></br><br></br>
+
+              <span style={{fontWeight: 'bold'}}> Jaki jest <span style={{color: '#DA193E'}}>koszt?</span> </span><br></br>
+              Warsztaty charytatywne są bezpłatne, natomiast warsztaty indywidualne wyceniane są personalnie. <br></br><br></br>
+
+              <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Ile</span> trwają? </span><br></br>
+              4 godziny<br></br><br></br>
+
+              <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
+              Dostarczamy wszystkie niezbędne materiały.<br></br>
               </div>
-              <div className="column is-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus leo metus, iaculis sit amet enim et, congue rhoncus nisi. Donec sagittis hendrerit mi. Pellentesque tortor massa, aliquet a venenatis sit amet, auctor vel ante. Sed posuere neque eros, ut rhoncus elit cursus vel. Mauris non ante sed felis consequat vulputate.         
+              <div className="column is-5" style={{fontSize: '25px', fontStyle: 'italic', fontWeight: 'bold', display: 'flex', justifyContent: 'center', textAlign: 'center', alignItems: 'center'}}>
+              Inwestycja w siebie to najważniejsza inwestycja jakiej możesz dokonać w życiu. 
+              Nie dorówna jej żadna inwestycja finansowa , ponieważ kiedy rozwijasz swoje umiejętności coraz lepiej rozumiesz rzeczywistość i zdobywasz nowe możliwości, wtedy zyskujesz prawdziwą wolność. 
               </div>
             </div>
           </div>
