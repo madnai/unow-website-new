@@ -18,7 +18,7 @@ export default () => {
           </br> zachowań i postaw.
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/milosc.png'></img>
          </div>
        </div>

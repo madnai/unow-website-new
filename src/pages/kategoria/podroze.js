@@ -17,7 +17,7 @@ export default () => {
              ludzi. 
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/podroze.png'></img>
          </div>
        </div>

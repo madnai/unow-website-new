@@ -14,7 +14,7 @@ export default () => {
            temat. Subiektywna wizja siebie.
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/ja.png'></img>
          </div>
        </div>

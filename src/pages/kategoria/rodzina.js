@@ -15,7 +15,7 @@ export default () => {
            dzieci (także adoptowanych) i krewnych.
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/rodzina.png'></img>
          </div>
        </div>

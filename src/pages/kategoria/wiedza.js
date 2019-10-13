@@ -16,7 +16,7 @@ export default () => {
            życia oraz niezbędna do nauczania.
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/wiedza.png'></img>
          </div>
        </div>

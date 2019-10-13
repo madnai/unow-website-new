@@ -15,7 +15,7 @@ export default () => {
            usługę lub towar. 
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/pieniadze.png'></img>
          </div>
        </div>

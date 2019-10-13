@@ -16,7 +16,7 @@ export default () => {
           </br> tworzeniu, wytwarzaniu lub odtwarzaniu.
           </p>
          </div>
-         <div className="column is-7">
+         <div className="column is-6">
            <img src='/img/kategorie/praca.png'></img>
          </div>
        </div>
