@@ -44,12 +44,12 @@ const NavbarComponent = class extends React.Component {
       <Navbar collapseOnSelect expand="sm">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav class="abs">
+          <div class="abs">
             <Nav.Item>
             <img src={logo} alt="Kaldi" width='100px;' />
             </Nav.Item>
-          </Nav>
-          <Nav class='navbar-nav ml-auto' style={{fontFamily: 'Lato'}}>
+          </div>
+          <div class='navbar-nav ml-auto'>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>HOME</Nav.Link>
             </Nav.Item>
@@ -62,7 +62,7 @@ const NavbarComponent = class extends React.Component {
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>PLANNER</Nav.Link>
             </Nav.Item>
-          </Nav>
+          </div>
         </Navbar.Collapse>
       </Navbar>
   //     <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
