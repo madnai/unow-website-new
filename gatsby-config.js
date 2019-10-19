@@ -79,7 +79,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Droid Sans', 'Quicksand', 'Anton', 'Lato']
+          families: ['Droid Sans', 'Quicksand', 'Anton', 'Lato', 'Didact Gothic', 'Poppins']
         }
       }
     } // make sure to keep it last in the array
