@@ -17,7 +17,7 @@ export default () => {
           </br> uczucia, typ relacji międzyludzkich,<br>
           </br> zachowań i postaw.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Myśląc o kategorii miłość dajemy sobie czas <br></br>
           na zastanowienie się czym miłość jest sama w sobie. <br></br>
           Czasami są to ludzie, których kochamy, innym razem <br></br>

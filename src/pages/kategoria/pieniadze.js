@@ -14,7 +14,7 @@ export default () => {
            płatniczy, który można wymienić na<br></br> 
            usługę lub towar. 
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Pieniądze to kategoria, w której należy zawrzeć<br></br>
            wszystkie rzeczy, które można kupić. To te<br></br>
             marzenia, które możesz dotknąć i realnie je mieć.<br></br>

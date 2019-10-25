@@ -16,7 +16,7 @@ export default () => {
              poznawaniem nowych kultur, przyrody i<br></br> 
              ludzi. 
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Kategoria podróże to odzwierciedlenie marzeń <br></br>
             związanych ze zwiedzaniem nowych miejsc. <br></br>
             Odkrywaniem wspaniałej przyrody <br></br>

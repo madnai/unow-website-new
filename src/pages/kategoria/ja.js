@@ -13,7 +13,7 @@ export default () => {
           Wyobrażenie oraz koncepcja na swój<br></br>
            temat. Subiektywna wizja siebie.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           To ewidentnie najważniejsza kategoria. Związana<br></br>
            jest ona bezpośrednio z tobą i twoją wizją siebie.<br></br>
             To wyobrażenie tego kim chciałbyś być, będąc<br></br>

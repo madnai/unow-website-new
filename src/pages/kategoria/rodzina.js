@@ -14,7 +14,7 @@ export default () => {
           społeczna składająca się z rodziców, ich<br></br>
            dzieci (także adoptowanych) i krewnych.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Rodzina to kategoria pokazująca więzi <br></br>
           z ludźmi, których kochasz. To również obraz miejsca,<br></br>
           w którym czujesz się dobrze i bezpiecznie oraz <br></br>

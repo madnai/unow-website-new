@@ -14,7 +14,7 @@ export default () => {
             Moze łączyć się ze zdobywaniem<br></br>
             wiedzy w danej dziedzinie.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Kategoria pasja to zastanowienie się nad tym, co<br></br>
            w naszym życiu robimy, tylko dlatego, że sprawia<br></br>
             nam to przyjemność. Wykonując to czujemy się<br></br>

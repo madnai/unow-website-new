@@ -46,7 +46,7 @@ const NavbarComponent = class extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="abs">
             <Nav.Item>
-            <img src={logo} alt="UNOW" width='100px;' />
+            <Link to="/"><img src={logo} alt="UNOW" width='100px;' /></Link>
             </Nav.Item>
           </div>
           <div className='navbar-nav ml-auto'>

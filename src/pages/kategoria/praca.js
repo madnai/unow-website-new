@@ -15,7 +15,7 @@ export default () => {
           </br> świadoma czynność polegająca na<br>
           </br> tworzeniu, wytwarzaniu lub odtwarzaniu.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Praca kojarzy się z sumiennością, rzetelnością,<br></br>
            wysiłkiem oraz wynagrodzeniem. To czynność, w<br></br>
             której zazwyczaj jesteśmy ekspertami. Praca to<br></br>

@@ -15,7 +15,7 @@ export default () => {
             których można polegać i liczyć na ich<br></br>
              wsparcie. 
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Przyjaciele to bliscy, bez których nie wyobrażamy<br></br>
            sobie życia. Ta kategoria zawiera wszystkie<br></br>
             stworzenia, z którymi czujesz więź. Tych na<br></br>

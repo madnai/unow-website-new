@@ -15,7 +15,7 @@ export default () => {
            informacji. Przydatna w różnych sferach <br></br>
            życia oraz niezbędna do nauczania.
           </p>
-          <p style={{opacity: '0.5', fontSize: '12px', marginTop: '5px'}}>
+          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300'}}>
           Wiedza jest kategorią, która ściśle wiąże się <br></br> 
           z rozwojem osobistym. To wszystkie rzeczy, <br></br> 
           które pragniemy robić, aby się doskonalić. <br></br> 
