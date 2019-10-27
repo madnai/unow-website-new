@@ -12,7 +12,7 @@ export const IndexPageTemplate = ({
   <div>
     <section className="section section--gradient">
       <div className="container">
-        <div className="section">
+        <div className="section" style={{padding: '1rem 1.5rem 3rem 1.5rem'}}>
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
