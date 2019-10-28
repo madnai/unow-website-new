@@ -2,9 +2,31 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby';
+import styled from 'styled-components'
 
 import Layout from '../components/Layout'
 import MasonryGallery from '../components/MasonryGallery';
+
+
+export const ImgDiv = styled.div`
+      position: absolute;
+	    top: 0; right: 0;
+	    bottom: 0; left: 0;
+	    width: 300px;
+	    height: 200px; 
+	    text-align: center;
+	    background-color: rgba(0,0,0,0.8);
+	    opacity: 0;
+	    -webkit-transition: opacity 0.6s;
+	    -moz-transition: opacity 0.6s;
+	    transition: opacity 0.6s;
+       vertical-align:middle;
+       line-height:200px;
+
+  :hover {
+    opacity: 1;
+  }
+`
 
 export const IndexPageTemplate = ({
   mainpitch
@@ -36,7 +58,13 @@ export const IndexPageTemplate = ({
     
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery >
-      <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/praca.png" className="masonry-img" alt="praca" width="100%" height="200px;"/>     </Link>
+      <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/praca.png" className="masonry-img" alt="praca" width="100%" height="200px;"/>
+      <ImgDiv>
+
+        <h3>BOOM!</h3>
+          
+        </ImgDiv>
+           </Link>
         <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><img src="/img/pasja1.png" className="masonry-img" alt="pasja" width="100%" height="400px;"/></Link>
         <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="/img/ja.png" className="masonry-img" alt="Masonry Brick #7" width="100%" height="800px"/> </Link>    
         <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><img src="/img/pieniadze1.png" className="masonry-img" alt="pieniadze" width="100%" height="220px"/> </Link>    
