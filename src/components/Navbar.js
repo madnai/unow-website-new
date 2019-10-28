@@ -41,7 +41,7 @@ const NavbarComponent = class extends React.Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px'}}>
+      <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <div className="abs">
