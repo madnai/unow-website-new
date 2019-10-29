@@ -9,7 +9,7 @@ const Category = ({ categoryName, description, details, imgName  }) => {
      <div className="container" style={{marginBottom: '50px', marginTop: '50px', marginRight: '-48px'}}>
        <div className="columns">
          <div className="column is-narrow is-offset-1">
-          <h1 style={{fontSize: '40px', fontWeight: 'bold', marginTop: '150px', textAlign: 'end', textTransform: 'uppercase'}}>{categoryName}</h1>
+          <h1 style={{fontSize: '40px', fontWeight: 'bold', marginTop: '150px', textAlign: 'end'}}>{categoryName}</h1>
           <p style={{fontStyle: 'italic', fontSize: '14px', textAlign: 'end'}}>
           {description}
           </p>

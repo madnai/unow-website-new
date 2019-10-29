@@ -6,8 +6,8 @@ import Category from '../../components/Category';
 export default () => {
   return (
     <Category
-      imgName='praca'
-      categoryName='praca'
+      imgName='wiedza'
+      categoryName='wiedza'
       description={<>Ogół wiadomości zdobytych dzięki<br></br> 
           badaniom, uczeniu się i zdobywaniu<br></br>
            informacji. Przydatna w różnych sferach <br></br>

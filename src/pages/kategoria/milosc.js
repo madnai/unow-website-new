@@ -5,8 +5,8 @@ import Category from '../../components/Category';
 export default () => {
   return (
     <Category
-      imgName='ja'
-      categoryName='ja'
+      imgName='milosc'
+      categoryName='miłość'
       description={<>Zgodnie z definicją miłość to głębokie<br>
                 </br> uczucie do drugiej osoby, któremu zwykle<br>
                 </br> towarzyszy pożądanie, silna więź, jaka<br>

@@ -59,11 +59,6 @@ export const IndexPageTemplate = ({
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery >
       <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/praca.png" className="masonry-img" alt="praca" width="100%" height="200px;"/>
-      <ImgDiv>
-
-        <h3>BOOM!</h3>
-          
-        </ImgDiv>
            </Link>
         <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><img src="/img/pasja1.png" className="masonry-img" alt="pasja" width="100%" height="400px;"/></Link>
         <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="/img/ja.png" className="masonry-img" alt="Masonry Brick #7" width="100%" height="800px"/> </Link>    

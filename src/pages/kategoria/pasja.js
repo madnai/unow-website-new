@@ -1,12 +1,13 @@
 import React from 'react'
+import Layout from '../../components/Layout'
 import Category from '../../components/Category';
 
 
 export default () => {
   return (
     <Category
-      imgName='pieniadze'
-      categoryName='pieniądze'
+      imgName='pasja'
+      categoryName='pasja'
       description={<>Czynnosc wykonywana dla relaksu w <br></br>
                   czasie wolnym o obowiązków.<br></br>
                   Moze łączyć się ze zdobywaniem<br></br>
