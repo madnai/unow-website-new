@@ -7,19 +7,7 @@ import { Link } from 'gatsby'
 export default () => {
     return (
         <Layout>
-          <div className="section">
-            <div className="columns is-mobile">
-              <div className="column is-10 is-offset-1">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">
-                      Warsztaty indywidualne
-                    </h1>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
           <section style={{marginTop: '-100px'}}> {/* TODO: ustaw margines w innym miejscu */}
             <MasonryGallery>
               <img src="https://unsplash.it/700/500?image=1" className="masonry-img" alt="Masonry Brick #1" width="100%" height="400px;"/>

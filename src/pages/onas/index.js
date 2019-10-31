@@ -63,9 +63,6 @@ export default () => {
                 <FaFacebookF />
               </div>
               <div className="column is-2" style={{textAlign: 'right'}}>
-                <FaTwitter />
-              </div>
-              <div className="column is-2" style={{textAlign: 'right'}}>
                 <FaInstagram />
               </div>
             </div> 
@@ -91,9 +88,6 @@ export default () => {
             <div className="columns is-centered is-mobile" style={{marginLeft: '10px'}}>
               <div className="column is-2" style={{textAlign: 'left'}}>
                 <a href="https://www.facebook.com/katarzyna.stefanska1"><FaFacebookF /></a>
-              </div>
-              <div className="column is-2" style={{textAlign: 'left'}}>
-                <FaTwitter />
               </div>
               <div className="column is-2" style={{textAlign: 'left'}}>
                 <a href="https://www.instagram.com/jaknieteraztokiedy/"><FaInstagram /></a>

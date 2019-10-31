@@ -30,19 +30,7 @@ const WarsztatyPage = ({data}) => {
 
     return (
       <Layout>
-        <div className="section">
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <div className="content">
-                <div className="tile">
-                  <h1 className="title">
-                    {frontmatter.title}
-                  </h1>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
         <div className="section">
           <div className="container">
             <div className="columns">

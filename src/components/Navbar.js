@@ -49,7 +49,7 @@ const NavbarComponent = class extends React.Component {
             <Link to="/"><img src={logo} alt="UNOW" width='100px;' /></Link>
             </Nav.Item>
           </div>
-          <div className='navbar-nav ml-auto'>
+          <div className='navbar-nav ml-auto' style={{marginRight: '9%'}}>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                 <Link to="/">HOME</Link>
@@ -66,7 +66,7 @@ const NavbarComponent = class extends React.Component {
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
                 <Link to="/planner">PLANNER</Link>
               </Nav.Link>
             </Nav.Item>
