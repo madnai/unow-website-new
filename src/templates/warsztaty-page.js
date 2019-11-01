@@ -13,7 +13,7 @@ export const ImgDiv = styled.div`
   align-items: center;
   height: 250px;
   font-size:30px;
-  color:red;
+  color:#C11B30;
   font-weight: bold;
   justify-content:center;
 

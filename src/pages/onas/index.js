@@ -44,7 +44,7 @@ export default () => {
         <div className="columns is-centered">
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
-              <span style={{color: '#DA193E'}}>D</span>AMIAN</h1>
+              <span style={{color: '#C11B30'}}>D</span>AMIAN</h1>
             <h1 class="title" style={{textAlign: 'right', fontFamily: 'Lato', letterSpacing: '2px'}}>PODRAZA</h1>
             {/* <p style={{textAlign: 'right', fontSize: '13px', fontStyle: 'italic'}}>Na co dzien lubi zmagac sie z <br></br>
                                             z problemami jako programista.<br></br>
@@ -72,7 +72,7 @@ export default () => {
           </div>
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
-              <span style={{color: '#DA193E'}}>K</span>ASIA</h1>
+              <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
             <h1 class="title" style={{textAlign: 'left', letterSpacing: '2px'}}>STEFAŃSKA</h1>
             {/* <p style={{textAlign: 'left', fontSize: '13px', fontStyle: 'italic'}}>Absolwentka Organizacji Produkcji <br></br>
                                             Filmowej i Telewizyjnej w Łódzkiej<br></br>
