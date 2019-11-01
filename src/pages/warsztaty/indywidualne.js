@@ -1,6 +1,5 @@
 import React from 'react';
 import Layout from '../../components/Layout'
-import MasonryGallery from '../../components/MasonryGallery'
 import { Link } from 'gatsby'
 
 
@@ -8,21 +7,11 @@ export default () => {
     return (
         <Layout>
           
-          <section style={{marginTop: '-100px'}}> {/* TODO: ustaw margines w innym miejscu */}
-            <MasonryGallery>
-              <img src="https://unsplash.it/700/500?image=1" className="masonry-img" alt="Masonry Brick #1" width="100%" height="400px;"/>
-              <img src="https://unsplash.it/700/900?image=25" className="masonry-img" alt="Masonry Brick #2" width="100%" height="200px;"/>     
-              <img src="https://unsplash.it/700/900?image=46" className="masonry-img" alt="Masonry Brick #3" width="100%" height="220px"/>     
-              <img src="https://unsplash.it/700/900?image=38" className="masonry-img" alt="Masonry Brick #4" width="100%" height="220px"/>     
-              <img src="https://unsplash.it/700/900?image=57" className="masonry-img" alt="Masonry Brick #5" width="100%" height="160px"/>     
-              <img src="https://unsplash.it/700/900?image=78" className="masonry-img" alt="Masonry Brick #6" width="100%" height="450px"/>     
-              <img src="https://unsplash.it/700/900?image=34" className="masonry-img" alt="Masonry Brick #7" width="100%" height="150px"/>     
-              <img src="https://unsplash.it/700/900?image=33" className="masonry-img" alt="Masonry Brick #8" width="100%" height="320px"/>    
-              <img src="https://unsplash.it/700/900?image=2" className="masonry-img" alt="Masonry Brick #8" width="100%" height="100px" style={{height: '145px'}}/>     
-            </MasonryGallery>
+          <section style={{marginTop: '50px', marginBottom: '50px'}}> {/* TODO: ustaw margines w innym miejscu */}
+            <img src="/img/indywidualne-full.png"></img>
         </section>
         <section>
-          <div className="container">
+          <div className="container" >
             <div className="columns is-mobile">
               <div className="column is-10 is-offset-1 ">
                 <div className="content">
