@@ -42,7 +42,7 @@ export default () => {
               <div className="column has-text-centered is-4">
               <div className="field">
               <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" style={{marginRight: '15px'}}>Wiecej informacji</p></Link>
-                <p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p>
+              <a href="mailto:info@unow.pl"><p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p></a>
               </div>
               </div>
             </div>
