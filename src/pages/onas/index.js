@@ -9,8 +9,8 @@ export default () => {
     <Layout>
        <section style={{marginBottom: '50px', marginTop: '50px'}}>
           <div className="container">
-            <div className="columns">
-              <div className="column is-10 is-offset-1">
+            {/* <div className="columns">
+              <div className="column is-10 is-offset-1"> */}
                 <div className="content">
                   <p style={{ textAlign: 'justify', fontFamily: 'Lato', fontSize: '14px'}}>
                   Firma UNOW powstała w 2019 roku z potrzeby serca, aby pomóc ludziom odnajdywać, wierzyć i realizować cele w życiu oraz doceniać drogę i dostrzegać rzeczy
@@ -37,8 +37,8 @@ export default () => {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
+            {/* </div>
+          </div> */}
         </section>
       <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
         <div className="columns is-centered">

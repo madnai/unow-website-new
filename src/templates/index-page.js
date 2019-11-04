@@ -38,12 +38,12 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content" style={{fontFamily: 'Lato', fontSize: '18px'}}>
+                <div className="content" style={{fontFamily: 'Lato', fontSize: '16px'}}>
                   <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
+                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h1 className="title">{mainpitch.subtitle}</h1>
+                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.subtitle}</h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>

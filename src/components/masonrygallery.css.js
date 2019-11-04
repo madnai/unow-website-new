@@ -8,7 +8,7 @@ export const MasonryDiv = styled.div`
   // grid-gap: ${props => props.gap || `0em`};
 
   @media ${device.mobileL} {  
-    margin:10%;
+    margin:10% 10% 5% 10%;
   }
 `
 

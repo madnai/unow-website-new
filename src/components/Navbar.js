@@ -50,7 +50,7 @@ const NavbarComponent = class extends React.Component {
               </Link>
             </Nav.Item>
           </div>
-          <div className='navbar-nav ml-auto' style={{marginRight: '9%'}}>
+          <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                 <Link to="/">HOME</Link>
