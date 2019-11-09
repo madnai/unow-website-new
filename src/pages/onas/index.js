@@ -9,8 +9,6 @@ export default () => {
     <Layout>
        <section style={{marginBottom: '50px', marginTop: '50px'}}>
           <div className="container">
-            {/* <div className="columns">
-              <div className="column is-10 is-offset-1"> */}
                 <div className="content">
                   <p style={{ textAlign: 'justify', fontFamily: 'Lato', fontSize: '14px'}}>
                   Firma UNOW powstała w 2019 roku z potrzeby serca, aby pomóc ludziom odnajdywać, wierzyć i realizować cele w życiu oraz doceniać drogę i dostrzegać rzeczy
@@ -37,8 +35,6 @@ export default () => {
                   </p>
                 </div>
               </div>
-            {/* </div>
-          </div> */}
         </section>
       <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
         <div className="columns is-centered">
@@ -46,24 +42,15 @@ export default () => {
             <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
               <span style={{color: '#C11B30'}}>D</span>AMIAN</h1>
             <h1 class="title" style={{textAlign: 'right', fontFamily: 'Lato', letterSpacing: '2px'}}>PODRAZA</h1>
-            {/* <p style={{textAlign: 'right', fontSize: '13px', fontStyle: 'italic'}}>Na co dzien lubi zmagac sie z <br></br>
-                                            z problemami jako programista.<br></br>
-                                            Cierpliwy tester róznych<br></br>
-                                            ideologii zyciowych, dla <br></br>
-                                            którego nie istnieją słowa "nie<br></br>
-                                            da się czy nie mozna".<br></br>
-                                            Filozofia i muzyka mają<br></br>
-                                            specjalne miejsce w jego<br></br>
-                                            zyciu.<br></br><br></br><br></br></p><br></br> */}
             <div className="columns is-centered is-mobile" style={{marginRight: '10px'}}>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}>
-                <FaFacebookF />
+              <a href="https://www.facebook.com/damian.podraza.5" target="_blank"><FaFacebookF /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'right'}}>
-                <FaInstagram />
+              <a href="https://www.instagram.com/podraza.damian/" target="_blank"><FaInstagram /></a>
               </div>
             </div> 
           </div>
@@ -74,23 +61,12 @@ export default () => {
             <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
               <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
             <h1 class="title" style={{textAlign: 'left', letterSpacing: '2px'}}>STEFAŃSKA</h1>
-            {/* <p style={{textAlign: 'left', fontSize: '13px', fontStyle: 'italic'}}>Absolwentka Organizacji Produkcji <br></br>
-                                            Filmowej i Telewizyjnej w Łódzkiej<br></br>
-                                            Szkole Flmowej oraz Aktorstwa w<br></br>
-                                            Krakowskich Szkołach <br></br>
-                                            Artystycznych. Przekonana, ze nie<br></br>
-                                            ma rzeczy niemozliwych - tą<br></br>
-                                            maksymą zaraza wszystkich<br></br>
-                                            napotkanych ludzi.<br></br>
-                                            Po godzinach pełna empatii<br></br>
-                                            blogerka, dla której istnieje tylko<br></br>
-                                            "teraz".</p><br></br> */}
             <div className="columns is-centered is-mobile" style={{marginLeft: '10px'}}>
               <div className="column is-2" style={{textAlign: 'left'}}>
-                <a href="https://www.facebook.com/katarzyna.stefanska1"><FaFacebookF /></a>
+                <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'left'}}>
-                <a href="https://www.instagram.com/jaknieteraztokiedy/"><FaInstagram /></a>
+                <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'left'}}></div>
               <div className="column is-2" style={{textAlign: 'left'}}></div>
