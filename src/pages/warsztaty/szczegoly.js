@@ -49,7 +49,7 @@ export default () => {
             <div className="columns is-centered is-mobile">
               <div className="column has-text-centered">
                 <div className="buttons is-centered">
-                <a href="mailto:info@unow.pl"><span className="button" style={{backgroundColor: '#C11B30', color: 'white'}}>
+                <a href="mailto:unow.pl@gmail.com"><span className="button" style={{backgroundColor: '#C11B30', color: 'white'}}>
                     Jestem zainteresowany
                   </span></a>
                 </div>
