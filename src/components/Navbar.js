@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import logo from '../img/logo.svg';
+import logo from '../img/logo.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
@@ -45,7 +45,7 @@ const NavbarComponent = class extends React.Component {
           <div className="abs">
             <Nav.Item>
               <Link to="/">
-                <img src={logo} alt="UNOW" width='100px;' />
+                <img src={logo} alt="UNOW" width='200px;' />
               </Link>
             </Nav.Item>
           </div>
