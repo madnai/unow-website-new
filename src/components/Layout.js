@@ -5,7 +5,6 @@ import NavbarComponent from '../components/Navbar'
 import './all.sass'
 import useSiteMetadata from './SiteMetadata'
 import { withPrefix } from "gatsby"
-import { Link } from 'gatsby'
 
 
 

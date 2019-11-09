@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo.svg';
-import Button from 'react-bootstrap/Button';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'

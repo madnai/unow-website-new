@@ -1,10 +1,6 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import Testimonials from '../components/Testimonials'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 import styled from 'styled-components'
 
 export const ImgDiv = styled.div`
