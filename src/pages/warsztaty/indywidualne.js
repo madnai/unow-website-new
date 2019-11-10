@@ -10,12 +10,20 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1),
     backgroundColor: '#C5002E',
     color: 'white',
+    '&:hover': {
+      backgroundColor: '#9d0024',
+      color: 'white'
+    },
     textTransform: 'none'
   },
   buttonBlack: {
     margin: theme.spacing(1),
     backgroundColor: '#000000',
     color: 'white',
+    '&:hover': {
+      backgroundColor: '#4c4c4c',
+      color: 'white'
+    },
     textTransform: 'none'
   },
   input: {
