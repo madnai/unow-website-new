@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/Layout'
+import Layout from '../../../components/Layout'
 import { Link } from 'gatsby'
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
@@ -59,8 +59,12 @@ export default () => {
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
             <div className="columns is-centered">
               <div className="column has-text-centered">
-                <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
-                <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
+                <Link to="/warsztaty/indywidualne/szczegoly">
+                  <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
+                </Link>
+                <a href="mailto:unow.pl@gmail.com">
+                  <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
+                </a>
               </div>
             </div>
           </div>

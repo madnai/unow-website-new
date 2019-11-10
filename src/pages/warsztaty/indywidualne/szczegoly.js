@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/Layout'
+import Layout from '../../../components/Layout'
 
 
 export default () => {
@@ -11,7 +11,7 @@ export default () => {
               <div className="content">
                 <div className="tile">
                   <h1 className="title">
-                    Warsztaty 
+                    Warsztaty indywidualne
                   </h1>
                 </div>
               </div>

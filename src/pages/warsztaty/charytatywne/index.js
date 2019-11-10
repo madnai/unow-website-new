@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/Layout'
+import Layout from '../../../components/Layout'
 import { Link } from 'gatsby'
 import Button from '@material-ui/core/Button';
 import { makeStyles } from '@material-ui/core/styles';
@@ -62,15 +62,12 @@ export default () => {
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
             <div className="columns is-centered">   
               <div className="column has-text-centered ">
-              {/* <div className="field"> */}
-              {/* <ButtonGroup color="primary" size="large" aria-label="large outlined button group"> */}
-              <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
-              <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
-            {/* </ButtonGroup> */}
-              
-              {/* <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" >Wiecej informacji</p></Link> */}
-              {/* <a href="mailto:info@unow.pl"><p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p></a> */}
-              {/* </div> */}
+                <Link to="/warsztaty/charytatywne/szczegoly">
+                  <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
+                </Link>
+                <a href="mailto:unow.pl@gmail.com">
+                  <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
+                </a>
               </div>
             </div>
           </div>
