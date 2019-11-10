@@ -1,9 +1,33 @@
 import React from 'react';
 import Layout from '../../components/Layout'
 import { Link } from 'gatsby'
+import Button from '@material-ui/core/Button';
+import { makeStyles } from '@material-ui/core/styles';
 
+
+
+const useStyles = makeStyles(theme => ({
+  buttonDanger: {
+    margin: theme.spacing(1),
+    backgroundColor: '#C5002E',
+    color: 'white',
+    textTransform: 'none'
+  },
+  buttonBlack: {
+    margin: theme.spacing(1),
+    backgroundColor: '#000000',
+    color: 'white',
+    textTransform: 'none'
+  },
+  input: {
+    display: 'none',
+  },
+}));
 
 export default () => {
+  const classes = useStyles();
+
+
     return (
         <Layout>
         
@@ -28,12 +52,17 @@ export default () => {
         </section>
         <section>
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
-            <div className="columns is-centered">
-              <div className="column has-text-centered is-4">
-              <div className="field">
-              <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" style={{marginRight: '15px'}}>Wiecej informacji</p></Link>
-              <a href="mailto:info@unow.pl"><p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p></a>
-              </div>
+            <div className="columns is-centered">   
+              <div className="column has-text-centered ">
+              {/* <div className="field"> */}
+              {/* <ButtonGroup color="primary" size="large" aria-label="large outlined button group"> */}
+              <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
+              <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
+            {/* </ButtonGroup> */}
+              
+              {/* <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" >Wiecej informacji</p></Link> */}
+              {/* <a href="mailto:info@unow.pl"><p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p></a> */}
+              {/* </div> */}
               </div>
             </div>
           </div>

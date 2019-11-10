@@ -1,9 +1,31 @@
 import React from 'react';
 import Layout from '../../components/Layout'
 import { Link } from 'gatsby'
+import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
+
+const useStyles = makeStyles(theme => ({
+  buttonDanger: {
+    margin: theme.spacing(1),
+    backgroundColor: '#C5002E',
+    color: 'white',
+    textTransform: 'none'
+  },
+  buttonBlack: {
+    margin: theme.spacing(1),
+    backgroundColor: '#000000',
+    color: 'white',
+    textTransform: 'none'
+  },
+  input: {
+    display: 'none',
+  },
+}));
 
 export default () => {
+  const classes = useStyles();
+
     return (
         <Layout>
           
@@ -28,11 +50,9 @@ export default () => {
         <section>
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
             <div className="columns is-centered">
-              <div className="column has-text-centered is-4">
-              <div className="field">
-              <Link to="/warsztaty/szczegoly"><p className="button is-pulled-left" style={{marginRight: '15px'}}>Wiecej informacji</p></Link>
-              <a href="mailto:unow.pl@gmail.com"><p className="button is-pulled-right" style={{backgroundColor: '#C11B30', color: 'white'}}>Jestem zainteresowany</p></a>
-              </div>
+              <div className="column has-text-centered">
+                <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
+                <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
               </div>
             </div>
           </div>
