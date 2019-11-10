@@ -3,9 +3,12 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby';
 import styled from 'styled-components'
+import HoverImage from '../components/HoverImage';
 
 import Layout from '../components/Layout'
 import MasonryGallery from '../components/MasonryGallery';
+import pasja from '../../static/img/pasja1.png';
+import praca from '../../static/img/praca.png';
 
 
 export const ImgDiv = styled.div`
@@ -58,19 +61,18 @@ export const IndexPageTemplate = ({
     
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery >
-      <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/praca.png" className="masonry-img" alt="praca" width="100%" height="200px;"/>
-           </Link>
-        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><img src="/img/pasja1.png" className="masonry-img" alt="pasja" width="100%" height="400px;"/></Link>
-        <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="/img/ja.png" className="masonry-img" alt="Masonry Brick #7" width="100%" height="800px"/> </Link>    
-        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><img src="/img/pieniadze1.png" className="masonry-img" alt="pieniadze" width="100%" height="220px"/> </Link>    
-        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}><img src="/img/milosc.png" className="masonry-img" alt="Masonry Brick #5" width="100%" height="160px"/> </Link>    
-        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}><img src="/img/przyjaciele.jpg" className="masonry-img" alt="przyjaciele" width="100%" height="450px"/> </Link> 
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" height="320px"/> </Link>   
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><img src="/img/wiedza1.png" className="masonry-img" alt="wiedza" width="100%" height="320px"/> </Link>   
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/rodzina.jpg" className="masonry-img" alt="Masonry Brick #8" width="100%" height="400px" style={{height: '0px'}} />   </Link> 
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/rodzina.jpg" className="masonry-img" alt="Masonry Brick #8" width="100%" height="400px"  />   </Link>  
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" height="320px"/> </Link>   
-        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}><img src="/img/podroze1.png" className="masonry-img" alt="podroze" width="100%" height="400px"  />   </Link>   
+        <Link to="/kategoria/praca" style={{lineHeight: '0'}}><img src="/img/gallery/praca.png" className="masonry-img" alt="praca" width="100%" /></Link> 
+        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/pasja.png" hoverSrc={praca} className="masonry-img" alt="pasja" width="100%" ></HoverImage></Link>
+        <Link to="/kategoria/ja" style={{lineHeight: '0'}}><img src="/img/gallery/ja.png" className="masonry-img" alt="Masonry Brick #7" width="100%" /> </Link>    
+        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><img src="/img/gallery/pieniadze.png" className="masonry-img" alt="pieniadze" width="100%" /> </Link>    
+        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}><img src="/img/gallery/milosc.png" className="masonry-img" alt="Masonry Brick #5" width="100%" /> </Link>    
+        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}><img src="/img/gallery/przyjaciele.png" className="masonry-img" alt="przyjaciele" width="100%" /> </Link> 
+        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><img src="/img/gallery/wiedza.png" className="masonry-img" alt="wiedza" width="100%" /> </Link>   
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/gallery/rodzina.png" className="masonry-img" alt="Masonry Brick #8" width="100%" style={{height: '0px'}} />   </Link> 
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><img src="/img/gallery/rodzina.png" className="masonry-img" alt="Masonry Brick #8" width="100%"   />   </Link>  
+        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}><img src="/img/gallery/podroze.png" className="masonry-img" alt="podroze" width="100%"  />   </Link>     
       </MasonryGallery>
     </section>
   </div>

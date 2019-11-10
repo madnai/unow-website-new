@@ -6,7 +6,13 @@ import Nav from 'react-bootstrap/Nav';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 
+const isActive = ({ isCurrent }) => {
+  return isCurrent ? { className: "activeLink" } : null
+}
 
+const ExactNavLink = props => (
+  <Link getProps={isActive} {...props} />
+)
 
 const NavbarComponent = class extends React.Component {
   constructor(props) {
@@ -16,6 +22,8 @@ const NavbarComponent = class extends React.Component {
       navBarActiveClass: '',
     }
   }
+
+  
 
   toggleHamburger = () => {
     // toggle the active boolean in the state
@@ -52,22 +60,22 @@ const NavbarComponent = class extends React.Component {
           <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <Link to="/">HOME</Link>
+                <ExactNavLink to="/">HOME</ExactNavLink>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <Link to="/onas">O NAS</Link>
+                <ExactNavLink to="/onas">O NAS</ExactNavLink>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <Link to="/warsztaty">WARSZTATY</Link>
+                <ExactNavLink to="/warsztaty">WARSZTATY</ExactNavLink>
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                <Link to="/planner">SKLEP</Link>
+                <ExactNavLink to="/planner">SKLEP</ExactNavLink>
               </Nav.Link>
             </Nav.Item>
           </div>
