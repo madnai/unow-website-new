@@ -46,7 +46,7 @@ export default () => {
         </div>
         <section>
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
-            <div className="columns is-centered is-mobile">
+            <div className="columns is-centered">
               <div className="column has-text-centered">
                 <div className="buttons is-centered">
                 <a href="mailto:unow.pl@gmail.com"><span className="button" style={{backgroundColor: '#C11B30', color: 'white'}}>

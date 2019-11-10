@@ -67,7 +67,7 @@ const NavbarComponent = class extends React.Component {
             </Nav.Item>
             <Nav.Item>
               <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                <Link to="/planner">PLANNER</Link>
+                <Link to="/planner">SKLEP</Link>
               </Nav.Link>
             </Nav.Item>
           </div>
