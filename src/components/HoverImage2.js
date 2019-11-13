@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-class HoverImage extends React.Component {
+class HoverImage2 extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -39,10 +39,10 @@ class HoverImage extends React.Component {
     )
   }
 }
-HoverImage.propTypes = {
+HoverImage2.propTypes = {
   hoverSrc: PropTypes.string.isRequired,
   src: PropTypes.string.isRequired,
   className: PropTypes.string
 };
 
-export default HoverImage
+export default HoverImage2

@@ -4,18 +4,20 @@ import { graphql } from 'gatsby'
 import { Link } from 'gatsby';
 import styled from 'styled-components'
 import HoverImage from '../components/HoverImage';
-
+import HoverImage2 from '../components/HoverImage2';
 import Layout from '../components/Layout'
 import MasonryGallery from '../components/MasonryGallery';
-import przyjaciele from '../../static/img/gallery/hover/przyjaciele.png';
 import milosc from '../../static/img/gallery/hover/milosc.png';
-import pasja from '../../static/img/gallery/hover/pasja.png';
-import rodzina from '../../static/img/gallery/hover/rodzina.png';
-import ja from '../../static/img/gallery/hover/ja.png';
-import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
-import wiedza from '../../static/img/gallery/hover/wiedza.png';
-import podroze from '../../static/img/gallery/hover/podroze.png';
 import praca from '../../static/img/gallery/hover/praca.png';
+import pasja from '../../static/img/gallery/hover/pasja.png';
+import przyjaciele from '../../static/img/gallery/hover/przyjaciele.png';
+import podroze from '../../static/img/gallery/hover/podroze.png';
+import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
+import ja from '../../static/img/gallery/hover/ja.png';
+import rodzina from '../../static/img/gallery/hover/rodzina.png';
+import wiedza from '../../static/img/gallery/hover/wiedza.png';
+
+
 
 
 
@@ -68,19 +70,37 @@ export const IndexPageTemplate = ({
     </section>
     
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
-      <MasonryGallery >
-        <Link to="/kategoria/praca" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" /></Link> 
-        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/pasja.png" hoverSrc={pasja} className="masonry-img" alt="pasja" width="100%" ></HoverImage></Link>
-        <Link to="/kategoria/ja" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/ja.png" hoverSrc={ja} className="masonry-img" alt="Masonry Brick #7" width="100%" ></HoverImage> </Link>    
-        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/pieniadze.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" ></HoverImage> </Link>    
-        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/milosc.png" hoverSrc={milosc} className="masonry-img" alt="Masonry Brick #5" width="100%" ></HoverImage> </Link>    
-        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/przyjaciele.png" hoverSrc={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" ></HoverImage> </Link> 
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/wiedza.png" hoverSrc={wiedza} className="masonry-img" alt="wiedza" width="100%" ></HoverImage> </Link>   
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/rodzina.png" hoverSrc={rodzina} className="masonry-img" alt="Masonry Brick #8" width="100%" style={{height: '0px'}} />   </Link> 
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/rodzina.png" hoverSrc={rodzina} className="masonry-img" alt="Masonry Brick #8" width="100%"   ></HoverImage>   </Link>  
-        <Link to="/kategoria/wiedza" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
-        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}><HoverImage src="/img/gallery/podroze.png" hoverSrc={podroze} className="masonry-img" alt="podroze" width="100%"  ></HoverImage>   </Link>     
+      <MasonryGallery>
+        <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" ></HoverImage>
+        </Link> 
+        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/pasja.png"  hoverSrc={pasja} className="masonry-img" alt="pasja" width="100%" />
+        </Link>
+        <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/ja.png" hoverSrc={ja} className="masonry-img" alt="ja" width="100%" />
+        </Link>    
+        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/pieniadze.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
+        </Link>    
+        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
+          <HoverImage2 src="/img/gallery/milosc.png" hoverSrc={milosc} className="masonry-img" alt="milosc" width="100%" />
+        </Link>    
+        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/przyjaciele.png" hoverSrc={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" ></HoverImage>
+        </Link> 
+        <Link to="/kategoria/ddd" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+        <Link to="/kategoria/wiedza" >
+          <HoverImage2 src="/img/gallery/wiedza.png" hoverSrc={wiedza} className="masonry-img"   alt="wiedza" width="100%" /> 
+        </Link>   
+        <Link to="/kategoria/ddaad" style={{lineHeight: '0'}}><span width="100%" /> </Link>  
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/rodzina.png" hoverSrc={rodzina} className="masonry-img" alt="rodzina1" width="100%" />
+        </Link>  
+        <Link to="/kategoria/wwwwww" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}>
+          <HoverImage src="/img/gallery/podroze.png" hoverSrc={podroze} className="masonry-img" alt="podroze" width="100%"  /> 
+        </Link>     
       </MasonryGallery>
     </section>
   </div>
