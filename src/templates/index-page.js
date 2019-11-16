@@ -12,10 +12,10 @@ import praca from '../../static/img/gallery/hover/praca.png';
 import pasja from '../../static/img/gallery/hover/pasja.png';
 import przyjaciele from '../../static/img/gallery/hover/przyjaciele.png';
 import podroze from '../../static/img/gallery/hover/podroze.png';
-import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
+import pieniadze from '../../static/img/gallery/hover/pieniadze1_com.png';
 import ja from '../../static/img/gallery/hover/ja.png';
 import rodzina from '../../static/img/gallery/hover/rodzina.png';
-import wiedza from '../../static/img/gallery/hover/wiedza.png';
+import wiedza from '../../static/img/gallery/hover/wiedza1_com.png';
 
 
 
