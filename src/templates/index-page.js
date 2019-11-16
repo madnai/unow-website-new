@@ -2,6 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby';
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 import styled from 'styled-components'
 import HoverImage from '../components/HoverImage';
 import HoverImage2 from '../components/HoverImage2';
@@ -12,12 +18,10 @@ import praca from '../../static/img/gallery/hover/praca.png';
 import pasja from '../../static/img/gallery/hover/pasja.png';
 import przyjaciele from '../../static/img/gallery/hover/przyjaciele.png';
 import podroze from '../../static/img/gallery/hover/podroze.png';
-import pieniadze from '../../static/img/gallery/hover/pieniadze1_com.png';
+import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
 import ja from '../../static/img/gallery/hover/ja.png';
 import rodzina from '../../static/img/gallery/hover/rodzina.png';
-import wiedza from '../../static/img/gallery/hover/wiedza1_com.png';
-
-
+import wiedza from '../../static/img/gallery/hover/wiedza.png';
 
 
 
@@ -68,7 +72,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
-    
+    <BrowserView>
     <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery>
         <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
@@ -103,6 +107,38 @@ export const IndexPageTemplate = ({
         </Link>     
       </MasonryGallery>
     </section>
+    </BrowserView>
+    <MobileView>
+      <MasonryGallery>
+        <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
+          <img src={praca} className="masonry-img" alt="praca" width="100%" />
+        </Link> 
+        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}>
+          <img src={pasja} className="masonry-img" alt="pasja" width="100%" />
+        </Link>
+        <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
+          <img src={ja} className="masonry-img" alt="ja" width="100%" />
+        </Link>    
+        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
+          <img src={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
+        </Link>    
+        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
+          <img src={milosc} className="masonry-img" alt="milosc" width="100%" />
+        </Link>    
+        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}>
+          <img src={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" />
+        </Link> 
+        <Link to="/kategoria/wiedza" >
+          <img src={wiedza} className="masonry-img"   alt="wiedza" width="100%" /> 
+        </Link>   
+        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}>
+          <img src={rodzina} className="masonry-img" alt="rodzina1" width="100%" />
+        </Link>  
+        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}>
+          <img src={podroze} className="masonry-img" alt="podroze" width="100%"  /> 
+        </Link>     
+      </MasonryGallery>
+    </MobileView>
   </div>
 )
 

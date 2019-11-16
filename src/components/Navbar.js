@@ -3,7 +3,13 @@ import { Link } from 'gatsby'
 import logo from '../img/logo.png';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 
 
 const isActive = ({ isCurrent }) => {
@@ -47,40 +53,74 @@ const NavbarComponent = class extends React.Component {
 
   render() {
     return (
-      <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
+      <>
+      <BrowserView>
+        <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <div className="abs">
-            <Nav.Item>
-              <Link to="/">
-                <img src={logo} alt="UNOW" width='200px;' />
-              </Link>
-            </Nav.Item>
-          </div>
-          <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
-            <Nav.Item>
-              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <ExactNavLink to="/">HOME</ExactNavLink>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <ExactNavLink to="/onas">O NAS</ExactNavLink>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
-                <ExactNavLink to="/warsztaty">WARSZTATY</ExactNavLink>
-              </Nav.Link>
-            </Nav.Item>
-            <Nav.Item>
-              <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                <ExactNavLink to="/planner">SKLEP</ExactNavLink>
-              </Nav.Link>
-            </Nav.Item>
-          </div>
-        </Navbar.Collapse>
-      </Navbar>
+          <Navbar.Collapse id="basic-navbar-nav">
+              <div className="abs">
+                <Nav.Item>
+                  <Link to="/">
+                    <img src={logo} alt="UNOWbrowser" width='200px;' />
+                  </Link>
+                </Nav.Item>
+              </div>
+            <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/">HOME</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/onas">O NAS</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/warsztaty">WARSZTATY</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/planner">SKLEP</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+            </div>
+          </Navbar.Collapse>
+        </Navbar>
+      </BrowserView>
+      <MobileView>
+        <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Brand className="abs" href="#home"><Link to="/"><img src={logo} alt="UNOWmobile" width='200px;' /></Link></Navbar.Brand>
+          <Navbar.Collapse id="basic-navbar-nav">
+            <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/">HOME</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/onas">O NAS</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                  <ExactNavLink to="/warsztaty">WARSZTATY</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/planner">SKLEP</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+            </div>
+          </Navbar.Collapse>
+        </Navbar>
+      </MobileView>
+      </>
     )
   }
 }
