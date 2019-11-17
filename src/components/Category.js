@@ -1,27 +1,50 @@
 import React from 'react'
 import Layout from './Layout';
+import {
+  isMobile,
+  isBrowser
+} from "react-device-detect";
 
 const Category = ({ categoryName, description, details, imgName  }) => {
   const imgURL = `/img/kategorie/${imgName}.png`;
 
   return (
     <Layout>
-     <div className="container" style={{marginBottom: '50px', marginTop: '50px', marginRight: '-48px'}}>
-       <div className="columns" style={{justifyContent: 'center', alignItems: 'center'}}>
-         <div className="column is-narrow is-offset-1">
-          <h1 style={{fontSize: '40px', fontWeight: 'bold', textAlign: 'end'}}>{categoryName}</h1>
-          <p style={{fontStyle: 'italic', fontSize: '14px', textAlign: 'end'}}>
-          {description}
-          </p>
-          <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300', textAlign: 'end'}}>
-          {details}
-          </p>
-         </div>
-         <div className="column is-8">
-           <img src={imgURL}></img>
-         </div>
-       </div>
-     </div>
+      {isBrowser ? (
+          <div className="container" style={{marginBottom: '50px', marginTop: '50px', marginRight: '-48px'}}>
+            <div className="columns" style={{justifyContent: 'center', alignItems: 'center'}}>
+            <div className="column is-narrow is-offset-1">
+              <h1 style={{fontSize: '40px', fontWeight: 'bold', textAlign: 'end'}}>{categoryName}</h1>
+              <p style={{fontStyle: 'italic', fontSize: '14px', textAlign: 'end'}}>
+              {description}
+              </p>
+              <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300', textAlign: 'end'}}>
+              {details}
+              </p>
+            </div>
+            <div className="column is-8">
+              <img src={imgURL}></img>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="container" style={{marginBottom: '50px', marginTop: '50px', }}>
+          <div className="columns" style={{justifyContent: 'center', alignItems: 'center'}}>
+          <div className="column is-narrow is-offset-1">
+            <h1 style={{fontSize: '40px', fontWeight: 'bold', textAlign: 'end'}}>{categoryName}</h1>
+            <p style={{fontStyle: 'italic', fontSize: '14px', textAlign: 'end'}}>
+            {description}
+            </p>
+            <p style={{opacity: '0.6', fontSize: '12px', marginTop: '5px', fontFamily: 'Lato', fontWeight: '300', textAlign: 'end'}}>
+            {details}
+            </p>
+          </div>
+          <div className="column is-8">
+            <img src={imgURL}></img>
+          </div>
+        </div>
+      </div>
+      )}
     </Layout>
   )
 }
