@@ -38,13 +38,13 @@ render() {
         <Navbar  style={{marginTop: '30px', fontFamily: 'Lato'}}>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-              <div className="abs">
-                <Nav.Item>
-                  <Link to="/">
-                    <img src={logo} alt="UNOWbrowser" width='120px;' />
-                  </Link>
-                </Nav.Item>
-              </div>
+            <div className="abs">
+              <Nav.Item>
+                <Link to="/">
+                  <img src={logo} alt="UNOWbrowser" width='120px;' />
+                </Link>
+              </Nav.Item>
+            </div>
             <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
@@ -72,8 +72,10 @@ render() {
       </BrowserView>
       <MobileView>
         <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <div className="navbar-header">
           <Navbar.Brand className="abs" href="#home"><Link to="/"><img src={logo} alt="UNOWmobile" width='120px;' /></Link></Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
+        </div>
           <Navbar.Collapse id="basic-navbar-nav">
             <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
               <Nav.Item>

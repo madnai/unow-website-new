@@ -1,5 +1,11 @@
 import React from 'react'
 import Layout from '../../components/Layout'
+import {
+  BrowserView,
+  MobileView,
+  isBrowser,
+  isMobile
+} from "react-device-detect";
 import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 
@@ -51,13 +57,38 @@ export default () => {
               </div>
             </div>
         </section>
-      <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
+        <MobileView>
+        <div className="container">
+        <div className="column has-text-centered  is-narrow">
+            <img src="/img/kasia-and-damian.png"></img>
+          </div>
+          <div class="columns is-mobile">
+            <div class="column is-pulled-left">
+              <h1 class="title" style={{fontSize: '25px',  marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
+                <span style={{color: '#C11B30'}}>D</span>AMIAN</h1>
+              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px'}}>PODRAZA</h1>
+              <a href="https://www.facebook.com/damian.podraza.5" target="_blank"><FaFacebookF /></a>
+              <a href="https://www.instagram.com/podraza.damian/" target="_blank"><FaInstagram /></a>
+            </div>
+            <div class="column is-pulled-right" align='right'>
+            <h1 class="title" style={{fontSize: '25px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
+                <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
+              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px'}}>STEFAŃSKA</h1>
+              <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
+              <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
+            </div>
+          </div>
+          
+        </div>
+        </MobileView>
+        <BrowserView>
+        <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
         <div className="columns is-centered">
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
               <span style={{color: '#C11B30'}}>D</span>AMIAN</h1>
             <h1 class="title" style={{textAlign: 'right', fontFamily: 'Lato', letterSpacing: '2px'}}>PODRAZA</h1>
-            <div className="columns is-centered is-mobile" style={{marginRight: '10px'}}>
+            <div className="columns is-centered" style={{marginRight: '10px'}}>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
@@ -90,6 +121,8 @@ export default () => {
           </div>
         </div>
       </div>
+        </BrowserView>
+      
     </Layout>
   )
 }
