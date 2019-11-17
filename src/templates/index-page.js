@@ -49,13 +49,13 @@ export const IndexPageTemplate = ({
   mainpitch
 }) => (
   <div>
-    <section className="section section--gradient">
+    <section className="section section--gradient" style={{paddingTop: '1rem'}}>
       <div className="container">
-        <div className="section" style={{padding: '1rem 1.5rem 3rem 1.5rem'}}>
+        <div className="section" style={{padding: '0rem 1.5rem 3rem 1.5rem'}}>
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content" style={{fontFamily: 'Lato', fontSize: '16px'}}>
+                <div className="content" style={{fontFamily: 'Lato', fontSize: '14px'}}>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
