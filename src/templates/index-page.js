@@ -70,7 +70,6 @@ export const IndexPageTemplate = ({
                         <span>możesz.</span>
                         <span>teraz.</span>
                       </TextLoop>
-                    
                     </h1>
                   </div>
                   <div className="tile">
@@ -95,7 +94,14 @@ export const IndexPageTemplate = ({
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.subtitle}</h1>
+                    <h1 className="title" style={{marginBottom: '0px'}}>
+                      {mainpitch.subtitle}{" "}
+                      <TextLoop>
+                        <span>będziesz.</span>
+                        <span>możesz.</span>
+                        <span>teraz.</span>
+                      </TextLoop>
+                    </h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
