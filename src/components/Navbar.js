@@ -73,7 +73,7 @@ render() {
       <MobileView>
         <Navbar collapseOnSelect expand="sm" style={{marginTop: '30px', fontFamily: 'Lato'}}>
         <div className="navbar-header">
-          <Navbar.Brand className="abs" href="#home"><Link to="/"><img src={logo} alt="UNOWmobile" width='120px;' /></Link></Navbar.Brand>
+          <Navbar.Brand style={{padding: '0px'}} className="abs" href="#home"><Link to="/"><img src={logo} alt="UNOWmobile" width='100px;' /></Link></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" /> 
         </div>
           <Navbar.Collapse id="basic-navbar-nav">
