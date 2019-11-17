@@ -13,7 +13,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 export default () => {
   return (
     <Layout>
-       <section style={{marginBottom: '50px', marginTop: '50px'}}>
+       <section style={{ marginTop: '50px'}}>
           <div className="container">
             <div class="columns">
               <div class="column is-10 is-offset-1">
@@ -58,23 +58,23 @@ export default () => {
             </div>
         </section>
         <MobileView>
-        <div className="container">
-        <div className="column has-text-centered  is-narrow">
+        <div className="container" style={{marginBottom: '50px'}}>
+        <div className="column has-text-centered is-narrow">
             <img src="/img/kasia-and-damian.png"></img>
           </div>
           <div class="columns is-mobile">
-            <div class="column is-pulled-left">
+            <div class="column is-pulled-left" style={{marginTop: '-20%'}}>
               <h1 class="title" style={{fontSize: '25px',  marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
                 <span style={{color: '#C11B30'}}>D</span>AMIAN</h1>
-              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px'}}>PODRAZA</h1>
-              <a href="https://www.facebook.com/damian.podraza.5" target="_blank"><FaFacebookF /></a>
+              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px', marginBottom: '0px'}}>PODRAZA</h1>
+              <a style={{marginRight: '5px'}} href="https://www.facebook.com/damian.podraza.5" target="_blank"><FaFacebookF /></a>
               <a href="https://www.instagram.com/podraza.damian/" target="_blank"><FaInstagram /></a>
             </div>
-            <div class="column is-pulled-right" align='right'>
+            <div class="column is-pulled-right" align='right' style={{marginTop: '-20%'}}>
             <h1 class="title" style={{fontSize: '25px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
                 <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
-              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px'}}>STEFAŃSKA</h1>
-              <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
+              <h1 class="title" style={{fontSize: '25px', fontFamily: 'Lato', letterSpacing: '2px', marginBottom: '0px'}}>STEFAŃSKA</h1>
+              <a style={{marginRight: '5px'}} href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
               <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
             </div>
           </div>
