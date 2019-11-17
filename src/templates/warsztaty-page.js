@@ -2,6 +2,11 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import styled from 'styled-components'
+import charytatywneImg from '../../static/img/char.png';
+import charytatywneImgHover from '../../static/img/char_hover.png';
+import indywidualneImg from '../../static/img/ind.png';
+import indywidualneImgHover from '../../static/img/ind_hover.png';
+import HoverImage from '../components//HoverImage';
 
 export const ImgDiv = styled.div`
   display:flex;
@@ -26,23 +31,16 @@ const WarsztatyPage = ({data}) => {
 
     return (
       <Layout>
-        
-        <div className="section">
-          <div className="container">
-            <div className="columns">
-              <div className="column is-half ">
-                <Link to="/warsztaty/charytatywne"><ImgDiv style={{
-                             backgroundImage: `url(${frontmatter.image1.childImageSharp.fluid.src})`,
-                            }} >charytatywne</ImgDiv></Link> 
+          <div style={{marginBottom: '50px'}}>
+            <div className="columns is-gapless" style={{marginTop: '150px'}}>
+              <div className="column  " style={{padding: '0px'}}>
+                <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
               </div>
-              <div className="column is-half">
-              <Link to="/warsztaty/indywidualne"><ImgDiv style={{backgroundImage: `url(${frontmatter.image2.childImageSharp.fluid.src})`}}
-                                >indywidualne</ImgDiv></Link>            
+              <div className="column " style={{padding: '0px'}}>
+                <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover} width='100%' /></Link>
               </div>
             </div>
           </div>
-        </div>
-        
       </Layout>
     )
   }
