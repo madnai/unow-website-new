@@ -49,7 +49,8 @@ export const IndexPageTemplate = ({
   mainpitch
 }) => (
   <div>
-    <section className="section section--gradient" style={{paddingTop: '1rem'}}>
+    {isBrowser ? (
+      <section className="section section--gradient" style={{paddingTop: '1rem'}}>
       <div className="container">
         <div className="section" style={{padding: '0rem 1.5rem 3rem 1.5rem'}}>
           <div className="columns">
@@ -72,8 +73,34 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+    ) : (
+      <section className="section section--gradient" style={{paddingTop: '1rem', paddingBottom: '1rem'}}>
+      <div className="container">
+        <div className="section" style={{padding: '0rem'}}>
+          <div className="columns">
+            <div className="column is-10 is-offset-1">
+              <div className="content">
+                <div className="content" style={{fontFamily: 'Lato', fontSize: '14px'}}>
+                  <div className="tile">
+                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
+                  </div>
+                  <div className="tile">
+                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.subtitle}</h1>
+                  </div>
+                  <div className="tile">
+                    <h3 className="subtitle">{mainpitch.description}</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    )}
+     
     <BrowserView>
-    <section style={{marginTop: '-200px'}}> {/* TODO: ustaw margines w innym miejscu */}
+    <section style={{marginTop: '-200px', marginBottom: '-50px'}}> {/* TODO: ustaw margines w innym miejscu */}
       <MasonryGallery>
         <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
           <HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" ></HoverImage>
