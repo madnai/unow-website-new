@@ -42,7 +42,7 @@ export default () => {
         </section>
         <section>
           <div className="container" >
-            <div className="columns is-mobile">
+            <div className="columns ">
               <div className="column is-10 is-offset-1 ">
                 <div className="content">
                   <p style={{ textAlign: 'justify', fontFamily: 'Lato'}}>
