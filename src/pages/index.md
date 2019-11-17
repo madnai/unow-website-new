@@ -2,7 +2,7 @@
 templateKey: index-page
 mainpitch:
   title: Spełniamy marzenia.
-  subtitle: Ty tez mozesz.
+  subtitle: Ty też 
   description: >
     
 description: >-

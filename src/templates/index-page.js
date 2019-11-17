@@ -22,6 +22,8 @@ import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
 import ja from '../../static/img/gallery/hover/ja.png';
 import rodzina from '../../static/img/gallery/hover/rodzina.png';
 import wiedza from '../../static/img/gallery/hover/wiedza.png';
+import TextLoop from "react-text-loop";
+
 
 
 
@@ -61,7 +63,15 @@ export const IndexPageTemplate = ({
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
-                    <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.subtitle}</h1>
+                    <h1 className="title" style={{marginBottom: '0px'}}>
+                      {mainpitch.subtitle}{" "}
+                      <TextLoop>
+                        <span>będziesz.</span>
+                        <span>możesz.</span>
+                        <span>teraz.</span>
+                      </TextLoop>
+                    
+                    </h1>
                   </div>
                   <div className="tile">
                     <h3 className="subtitle">{mainpitch.description}</h3>
