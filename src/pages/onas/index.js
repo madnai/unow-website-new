@@ -13,7 +13,7 @@ import { FaFacebookF, FaTwitter, FaInstagram } from 'react-icons/fa';
 export default () => {
   return (
     <Layout>
-       <section style={{ marginTop: '50px'}}>
+       <section style={{ marginTop: '20px'}}>
           <div className="container">
             <div class="columns">
               <div class="column is-10 is-offset-1">
