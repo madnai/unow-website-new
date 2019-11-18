@@ -58,14 +58,14 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content" style={{fontFamily: 'Lato', fontSize: '14px'}}>
+                <div className="content" style={{fontFamily: 'Lato', fontSize: '16px'}}>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>
                       {mainpitch.subtitle}{" "}
-                      <TextLoop>
+                      <TextLoop interval={4000}>
                         <span>będziesz.</span>
                         <span>możesz.</span>
                         <span>teraz.</span>
@@ -89,14 +89,14 @@ export const IndexPageTemplate = ({
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content" style={{fontFamily: 'Lato', fontSize: '14px'}}>
+                <div className="content" style={{fontFamily: 'Lato', fontSize: '16px'}}>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
                   </div>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>
                       {mainpitch.subtitle}{" "}
-                      <TextLoop>
+                      <TextLoop interval={4000}>
                         <span>będziesz.</span>
                         <span>możesz.</span>
                         <span>teraz.</span>
@@ -116,40 +116,40 @@ export const IndexPageTemplate = ({
     )}
      
     <BrowserView>
-    <section style={{marginTop: '-200px', marginBottom: '-50px'}}> {/* TODO: ustaw margines w innym miejscu */}
-      <MasonryGallery>
-        <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" ></HoverImage>
-        </Link> 
-        <Link to="/kategoria/pasja" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/pasja.png"  hoverSrc={pasja} className="masonry-img" alt="pasja" width="100%" />
-        </Link>
-        <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/ja.png" hoverSrc={ja} className="masonry-img" alt="ja" width="100%" />
-        </Link>    
-        <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/pieniadze.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
-        </Link>    
-        <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
-          <HoverImage2 src="/img/gallery/milosc.png" hoverSrc={milosc} className="masonry-img" alt="milosc" width="100%" />
-        </Link>    
-        <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/przyjaciele.png" hoverSrc={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" ></HoverImage>
-        </Link> 
-        <Link to="/kategoria/ddd" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
-        <Link to="/kategoria/wiedza" >
-          <HoverImage2 src="/img/gallery/wiedza.png" hoverSrc={wiedza} className="masonry-img"   alt="wiedza" width="100%" /> 
-        </Link>   
-        <Link to="/kategoria/ddaad" style={{lineHeight: '0'}}><span width="100%" /> </Link>  
-        <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/rodzina.png" hoverSrc={rodzina} className="masonry-img" alt="rodzina1" width="100%" />
-        </Link>  
-        <Link to="/kategoria/wwwwww" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
-        <Link to="/kategoria/podroze" style={{lineHeight: '0'}}>
-          <HoverImage src="/img/gallery/podroze.png" hoverSrc={podroze} className="masonry-img" alt="podroze" width="100%"  /> 
-        </Link>     
-      </MasonryGallery>
-    </section>
+      <section style={{marginTop: '-200px', marginBottom: '-50px'}}> {/* TODO: ustaw margines w innym miejscu */}
+        <MasonryGallery>
+          <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" ></HoverImage>
+          </Link> 
+          <Link to="/kategoria/pasja" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/pasja.png"  hoverSrc={pasja} className="masonry-img" alt="pasja" width="100%" />
+          </Link>
+          <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/ja.png" hoverSrc={ja} className="masonry-img" alt="ja" width="100%" />
+          </Link>    
+          <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/pieniadze.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
+          </Link>    
+          <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
+            <HoverImage2 src="/img/gallery/milosc.png" hoverSrc={milosc} className="masonry-img" alt="milosc" width="100%" />
+          </Link>    
+          <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/przyjaciele.png" hoverSrc={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" ></HoverImage>
+          </Link> 
+          <Link to="/kategoria/ddd" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+          <Link to="/kategoria/wiedza" >
+            <HoverImage2 src="/img/gallery/wiedza.png" hoverSrc={wiedza} className="masonry-img"   alt="wiedza" width="100%" /> 
+          </Link>   
+          <Link to="/kategoria/ddaad" style={{lineHeight: '0'}}><span width="100%" /> </Link>  
+          <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/rodzina.png" hoverSrc={rodzina} className="masonry-img" alt="rodzina1" width="100%" />
+          </Link>  
+          <Link to="/kategoria/wwwwww" style={{lineHeight: '0'}}><span width="100%" /> </Link>   
+          <Link to="/kategoria/podroze" style={{lineHeight: '0'}}>
+            <HoverImage src="/img/gallery/podroze.png" hoverSrc={podroze} className="masonry-img" alt="podroze" width="100%"  /> 
+          </Link>     
+        </MasonryGallery>
+      </section>
     </BrowserView>
     <MobileView>
       <MasonryGallery>
