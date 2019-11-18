@@ -82,7 +82,7 @@ export default () => {
         </div>
         </MobileView>
         <BrowserView>
-        <div className="container" style={{marginBottom: '50px', marginTop: '50px'}}>
+        <div className="container" style={{marginBottom: '20px', marginTop: '20px'}}>
         <div className="columns is-centered">
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'right', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
