@@ -65,10 +65,10 @@ export default () => {
           <div className="container" style={{marginBottom: '20px', marginTop: '20px'}}>
             <div className="columns is-centered">   
               <div className="column has-text-centered ">
-                <Link to="/warsztaty/charytatywne/szczegoly">
+                <Link to="/warsztaty/charytatywne/szczegoly" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
                 </Link>
-                <a href="mailto:unow.pl@gmail.com">
+                <a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
                 </a>
               </div>
