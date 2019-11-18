@@ -37,7 +37,7 @@ export default () => {
     return (
         <Layout>
           
-          <section style={{marginTop: '50px', marginBottom: '50px'}}> {/* TODO: ustaw margines w innym miejscu */}
+          <section style={{marginTop: '20px', marginBottom: '20px'}}> {/* TODO: ustaw margines w innym miejscu */}
             <img src="/img/indywidualne-full.png"></img>
         </section>
         <section>
@@ -54,7 +54,7 @@ export default () => {
           </div>
         </section>
         <section>
-          <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
+          <div className="container" style={{marginBottom: '20px', marginTop: '20px'}}>
             <div className="columns is-centered">
               <div className="column has-text-centered">
                 <Link to="/warsztaty/indywidualne/szczegoly">
