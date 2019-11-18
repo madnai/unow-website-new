@@ -7,6 +7,10 @@ import charytatywneImgHover from '../../static/img/char_hover.png';
 import indywidualneImg from '../../static/img/ind.png';
 import indywidualneImgHover from '../../static/img/ind_hover.png';
 import HoverImage from '../components//HoverImage';
+import {
+  BrowserView,
+  MobileView
+} from "react-device-detect";
 
 export const ImgDiv = styled.div`
   display:flex;
@@ -30,18 +34,36 @@ const WarsztatyPage = ({data}) => {
   const { frontmatter } = data.markdownRemark
 
     return (
-      <Layout>
-          <div style={{marginBottom: '50px'}}>
-            <div className="columns is-gapless" style={{marginTop: '150px'}}>
-              <div className="column  " style={{padding: '0px'}}>
-                <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
-              </div>
-              <div className="column " style={{padding: '0px'}}>
-                <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover} width='100%' /></Link>
+      <>
+      <BrowserView>
+        <Layout>
+            <div style={{marginBottom: '50px'}}>
+              <div className="columns" style={{marginTop: '70px'}}>
+                <div className="column  " style={{padding: '0px 20px 20px 0px'}}>
+                  <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
+                </div>
+                <div className="column " style={{padding: '0px'}}>
+                  <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover} width='100%' /></Link>
+                </div>
               </div>
             </div>
-          </div>
-      </Layout>
+        </Layout>
+      </BrowserView>
+      <MobileView>
+         <Layout>
+            <div style={{marginBottom: '50px'}}>
+              <div className="columns" style={{marginTop: '70px'}}>
+                <div className="column  " style={{padding: '0px 0px 20px 0px'}}>
+                  <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
+                </div>
+                <div className="column " style={{padding: '0px'}}>
+                  <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover} width='100%' /></Link>
+                </div>
+              </div>
+            </div>
+        </Layout>
+      </MobileView>
+      </>
     )
   }
 
