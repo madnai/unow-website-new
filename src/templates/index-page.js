@@ -116,7 +116,7 @@ export const IndexPageTemplate = ({
     )}
      
     <BrowserView>
-      <section style={{marginTop: '-240px', marginBottom: '-50px'}}> {/* TODO: ustaw margines w innym miejscu */}
+      <section style={{marginTop: '-220px', marginBottom: '-50px'}}> {/* TODO: ustaw margines w innym miejscu */}
         <MasonryGallery>
           <Link to="/kategoria/praca" style={{lineHeight: '0'}}>
             <HoverImage src="/img/gallery/praca.png" hoverSrc={praca} className="masonry-img" alt="praca" width="100%" ></HoverImage>
