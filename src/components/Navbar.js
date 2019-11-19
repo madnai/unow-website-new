@@ -41,7 +41,7 @@ render() {
             <div className="abs">
               <Nav.Item>
                 <Link to="/">
-                  <img src={logo} alt="UNOWbrowser" width='120px;' />
+                  <img src={logo} alt="UNOWbrowser" width='100px;' />
                 </Link>
               </Nav.Item>
             </div>
