@@ -189,16 +189,40 @@ IndexPageTemplate.propTypes = {
   mainpitch: PropTypes.object,
 }
 
-const IndexPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+// const IndexPage =  ({ data }) => {
+//   const { frontmatter } = data.markdownRemark
 
-  return (
-    <Layout>
-      <IndexPageTemplate
-        mainpitch={frontmatter.mainpitch}
-      />
-    </Layout>
-  )
+//   return (
+//     <Layout>
+//       <IndexPageTemplate
+//         mainpitch={frontmatter.mainpitch}
+//       />
+//     </Layout>
+//   )
+// }
+
+const IndexPage = class extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {}
+    }
+  
+
+  componentDidMount() {
+    this.setState({ isClient: true })
+  }
+
+  render() {
+    return (
+      <React.Fragment key={this.state.isClient}>
+          <Layout>
+            <IndexPageTemplate
+              mainpitch={this.props.data.markdownRemark.frontmatter.mainpitch}
+            />
+          </Layout>
+          </React.Fragment>
+        )
+  }
 }
 
 export default IndexPage
