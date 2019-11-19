@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '../../../components/Layout'
+import TextLoop from "react-text-loop";
 
 
 export default () => {
@@ -11,7 +12,13 @@ export default () => {
               <div className="content">
                 <div className="tile">
                   <h1 className="title">
-                  Warsztaty charytatywne
+                  Spełniamy marzenia.<br></br>
+                    Ty też {" "}
+                  <TextLoop interval={4000}>
+                        <span>będziesz.</span>
+                        <span>możesz.</span>
+                        <span>teraz.</span>
+                      </TextLoop>
                   </h1>
                 </div>
               </div>
@@ -47,7 +54,7 @@ Na warsztatach dzieci i dorośli dowiedzą się kim jesteśmy, po co tu przyszli
               Inwestycja w siebie to najważniejsza inwestycja jakiej możesz dokonać w życiu. 
               Nie dorówna jej żadna inwestycja finansowa , ponieważ kiedy rozwijasz swoje umiejętności coraz lepiej rozumiesz rzeczywistość i zdobywasz nowe możliwości, wtedy zyskujesz prawdziwą wolność. 
               </div> */}
-              <div className='column is-7' style={{marginRight: '-24px'}}>
+              <div className='column is-6' style={{marginRight: '-100px', marginTop: '-2%'}}>
               <img src='/img/warsztaty-charytatywne-wiecej.png' alt="UNOWbrowser" width="100%" align="right" />
               </div>
             </div>
