@@ -5,7 +5,7 @@ import Layout from '../../../components/Layout'
 export default () => {
     return (
       <Layout>
-        <div className="section">
+        <div className="section" style={{padding: '0rem 1.5rem 0rem 1.5rem'}}>
           <div className="columns is-mobile">
             <div className="column is-10 is-offset-1">
               <div className="content">
@@ -19,9 +19,9 @@ export default () => {
           </div>
         </div>
         <div className="section">
-          <div className="container">
+          {/* <div className="container"> */}
             <div className="columns is-centered">
-              <div className="column is-5  ">
+              <div className="column is-5  "  style={{marginLeft: '5%', fontSize: '14px'}}>
               <span style={{fontWeight: 'bold'}}><span style={{color: '#C11B30'}}>Co to</span> za warsztaty? </span><br></br>
               Warsztaty UNOW to tworzenie tablic marzeń, celów i pragnień. To spotkanie, podczas którego uczestnicy mają szansę w ciągu czterech godzin zastanowić czego naprawdę pragną w dziewięciu stworzonych kategoriach życia. A następnie dostają wiedzę oraz instrukcje która pozwala zrozumieć przybliżenie się realizacji marzeń. <br></br><br></br>
 
@@ -35,16 +35,22 @@ export default () => {
               4 godziny<br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
-              Dostarczamy wszystkie niezbędne materiały.<br></br>
+              Dostarczamy wszystkie niezbędne materiały.<br></br><br></br><br></br>
+              <div className="buttons "><a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}><span className="button" style={{backgroundColor: '#C11B30', color: 'white'}}>
+                    Jestem zainteresowany
+                  </span></a></div>
               </div>
-              <div className="column is-5" style={{fontSize: '25px', fontStyle: 'italic', fontWeight: 'bold', display: 'flex', justifyContent: 'center', textAlign: 'center', alignItems: 'center'}}>
+              {/* <div className="column is-7" style={{fontSize: '25px', fontStyle: 'italic', fontWeight: 'bold', display: 'flex', justifyContent: 'center', textAlign: 'center', alignItems: 'center'}}>
               Inwestycja w siebie to najważniejsza inwestycja jakiej możesz dokonać w życiu. 
               Nie dorówna jej żadna inwestycja finansowa , ponieważ kiedy rozwijasz swoje umiejętności coraz lepiej rozumiesz rzeczywistość i zdobywasz nowe możliwości, wtedy zyskujesz prawdziwą wolność. 
+              </div> */}
+              <div className='column is-7' style={{marginRight: '-24px'}}>
+              <img src='/img/warsztaty-indywidualne-wiecej.png' alt="UNOWbrowser" width="100%" align="right" />
               </div>
             </div>
           </div>
-        </div>
-        <section>
+        {/* </div> */}
+        {/* <section>
           <div className="container" style={{marginBottom: '50px', marginTop: '30px'}}>
             <div className="columns is-centered">
               <div className="column has-text-centered">
@@ -56,7 +62,7 @@ export default () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </Layout>
     )
 }
