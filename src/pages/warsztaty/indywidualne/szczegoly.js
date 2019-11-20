@@ -51,7 +51,7 @@ export default () => {
               Inwestycja w siebie to najważniejsza inwestycja jakiej możesz dokonać w życiu. 
               Nie dorówna jej żadna inwestycja finansowa , ponieważ kiedy rozwijasz swoje umiejętności coraz lepiej rozumiesz rzeczywistość i zdobywasz nowe możliwości, wtedy zyskujesz prawdziwą wolność. 
               </div> */}
-              <div className='column is-6' style={{marginRight: '-100px', marginTop: '-2%'}}>
+              <div className='column is-6' style={{marginRight: '-100px', marginTop: '-5%'}}>
               <img src='/img/warsztaty-indywidualne-wiecej.png' alt="UNOWbrowser" width="100%" align="right" />
               </div>
             </div>

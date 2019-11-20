@@ -92,7 +92,7 @@ export const IndexPageTemplate = ({
                 <div className="content" style={{fontFamily: 'Lato', fontSize: '16px'}}>
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>{mainpitch.title}</h1>
-                  </div>
+                  </div>\
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>
                       {mainpitch.subtitle}{" "}

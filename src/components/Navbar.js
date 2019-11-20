@@ -63,7 +63,7 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/planner">SKLEP</ExactNavLink>
+                  <ExactNavLink to="/shop">SHOP</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
             </div>
@@ -95,7 +95,7 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/planner">SKLEP</ExactNavLink>
+                  <ExactNavLink to="/shop">SHOP</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
             </div>
