@@ -28,7 +28,7 @@ const Category = ({ categoryName, description, details, imgName  }) => {
           </div>
         </div>
       ) : (
-        <div className="container" style={{marginBottom: '50px', marginTop: '50px', }}>
+        <div className="container" style={{marginBottom: '50px', marginTop: '20px', }}>
           <div className="columns" style={{justifyContent: 'center', alignItems: 'center'}}>
           <div className="column is-narrow is-offset-1">
             <h1 style={{fontSize: '40px', fontWeight: 'bold', textAlign: 'end'}}>{categoryName}</h1>

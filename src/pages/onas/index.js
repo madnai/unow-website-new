@@ -74,8 +74,9 @@ export default () => {
             <h1 class="title" style={{fontSize: '22px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
                 <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
               <h1 class="title" style={{fontSize: '22px', fontFamily: 'Lato', letterSpacing: '2px', marginBottom: '0px'}}>STEFAŃSKA</h1>
-              <a style={{marginRight: '8px'}} href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
-              <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
+              <a href="https://www.instagram.com/jaknieteraztokiedy/" style={{marginRight: '8px'}} target="_blank"><FaInstagram /></a>
+              <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
+
             </div>
           </div>
           
@@ -107,12 +108,12 @@ export default () => {
             <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
               <span style={{color: '#C11B30'}}>K</span>ASIA</h1>
             <h1 class="title" style={{textAlign: 'left', letterSpacing: '2px'}}>STEFAŃSKA</h1>
-            <div className="columns is-centered is-mobile" style={{marginLeft: '10px'}}>
-              <div className="column is-2" style={{textAlign: 'left'}}>
-                <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
+            <div className="columns is-centered " style={{marginLeft: '-10px'}}>
+            <div className="column is-2" style={{textAlign: 'left'}}>
+                <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'left'}}>
-                <a href="https://www.instagram.com/jaknieteraztokiedy/" target="_blank"><FaInstagram /></a>
+                <a href="https://www.facebook.com/katarzyna.stefanska1" target="_blank"><FaFacebookF /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'left'}}></div>
               <div className="column is-2" style={{textAlign: 'left'}}></div>

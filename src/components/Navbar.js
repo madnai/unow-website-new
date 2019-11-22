@@ -47,23 +47,33 @@ render() {
             </div>
             <div className='navbar-nav ml-auto' style={{marginRight: '15%'}}>
               <Nav.Item>
-                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                   <ExactNavLink to="/">HOME</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                   <ExactNavLink to="/onas">O NAS</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black'}}>
                   <ExactNavLink to="/warsztaty">WARSZTATY</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
                   <ExactNavLink to="/shop">SHOP</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/udream">UDREAM</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/start">START</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
             </div>
