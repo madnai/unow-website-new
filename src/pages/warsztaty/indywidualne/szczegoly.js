@@ -14,7 +14,7 @@ export default () => {
                   <h1 className="title">
                     Spełniamy marzenia.<br></br>
                     Ty też {" "}
-                  <TextLoop interval={4000} springConfig={{ stiffness: 200, damping: 80 }}>
+                  <TextLoop interval={4000} springConfig={{ stiffness: 200, damping: 50 }}>
                         <span>będziesz.</span>
                         <span>możesz.</span>
                         <span>teraz.</span>

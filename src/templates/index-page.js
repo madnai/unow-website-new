@@ -65,7 +65,7 @@ export const IndexPageTemplate = ({
                   <div className="tile">
                     <h1 className="title" style={{marginBottom: '0px'}}>
                       {mainpitch.subtitle}{" "}
-                      <TextLoop interval={4000} springConfig={{ stiffness: 200, damping: 80 }}>
+                      <TextLoop interval={4000} springConfig={{ stiffness: 200, damping: 50 }}>
                         <span>będziesz.</span>
                         <span>możesz.</span>
                         <span>teraz.</span>
