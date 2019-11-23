@@ -93,7 +93,7 @@ export default () => {
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
               <div className="column is-2" style={{textAlign: 'right'}}></div>
-              <div className="column is-2" style={{textAlign: 'right'}}>
+              <div className="column is-2" style={{textAlign: 'right', marginRight: '6px'}}>
               <a href="https://www.facebook.com/damian.podraza.5" target="_blank"><FaFacebookF /></a>
               </div>
               <div className="column is-2" style={{textAlign: 'right'}}>
@@ -122,8 +122,7 @@ export default () => {
           </div>
         </div>
       </div>
-        </BrowserView>
-      
+      </BrowserView>
     </Layout>
   )
 }

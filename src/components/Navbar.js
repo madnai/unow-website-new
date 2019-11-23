@@ -108,6 +108,16 @@ render() {
                   <ExactNavLink to="/shop">SHOP</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/udream">UDREAM</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
+              <Nav.Item>
+                <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                  <ExactNavLink to="/start">START</ExactNavLink>
+                </Nav.Link>
+              </Nav.Item>
             </div>
           </Navbar.Collapse>
         </Navbar>

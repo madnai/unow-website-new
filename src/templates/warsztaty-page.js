@@ -51,8 +51,8 @@ const WarsztatyPage = ({data}) => {
       </BrowserView>
       <MobileView>
          <Layout>
-            <div style={{marginBottom: '50px'}}>
-              <div className="columns" style={{marginTop: '70px'}}>
+            <div style={{marginBottom: '20px'}}>
+              <div className="columns" style={{marginTop: '30px'}}>
                 <div className="column  " style={{padding: '0px 0px 20px 0px'}}>
                   <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
                 </div>
