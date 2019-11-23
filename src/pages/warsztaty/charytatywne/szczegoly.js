@@ -73,7 +73,7 @@ export default () => {
         </div>
         <div className="section" style={{paddingTop: '1rem', paddingTop: '1rem'}}>
             <div className="columns is-centered">
-              <div className="column is-5 " style={{marginLeft: '5%', fontSize: '14px', textAlign: 'justify'}}>
+              <div className="column is-5 " style={{ fontSize: '14px', textAlign: 'justify'}}>
               <span style={{fontWeight: 'bold'}}><span style={{color: '#C11B30'}}>Co to</span> za warsztaty? </span><br></br>
               Warsztaty charytatywne UNOW to tworzenie tablic marzeń, celów i pragnień. To spotkanie, podczas którego uczestnicy mają szansę w ciągu trzech godzin zastanowić czego naprawdę pragną w dziewięciu stworzonych kategoriach życia. A następnie dostają wiedzę oraz instrukcję która pozwala zrozumieć przybliżenie się do realizacji marzeń. 
               Na warsztatach dzieci i dorośli dowiedzą się kim jesteśmy, po co tu przyszliśmy, co będziemy robić, czym są kategorię, stworzą własną tablicę marzeń i dowiedzą się co dalej z nią zrobić. 
