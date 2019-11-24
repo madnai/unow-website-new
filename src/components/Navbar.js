@@ -68,7 +68,7 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/udream">UDREAM</ExactNavLink>
+                  <a href="https://relaxed-yalow-4ffa99.netlify.com/">UDREAM</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
@@ -110,7 +110,7 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/udream">UDREAM</ExactNavLink>
+                  <a href="https://relaxed-yalow-4ffa99.netlify.com/">UDREAM</a>
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
