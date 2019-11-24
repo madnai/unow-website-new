@@ -67,9 +67,9 @@ render() {
                 </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
+                <span class="nav-link" style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
                   <a href="https://relaxed-yalow-4ffa99.netlify.com/">UDREAM</a>
-                </Nav.Link>
+                </span>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
