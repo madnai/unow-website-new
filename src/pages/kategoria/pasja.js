@@ -8,9 +8,9 @@ export default () => {
     <Category
       imgName='pasja'
       categoryName='pasja'
-      description={<>Czynnosc wykonywana dla relaksu w <br></br>
-                  czasie wolnym o obowiązków.<br></br>
-                  Moze łączyć się ze zdobywaniem<br></br>
+      description={<>Czynność wykonywana dla relaksu w <br></br>
+                  czasie wolnym od obowiązków.<br></br>
+                  Może łączyć się ze zdobywaniem<br></br>
                   wiedzy w danej dziedzinie. </>}
       details={<>Kategoria pasja to zastanowienie się nad tym, co<br></br>
                 w naszym życiu robimy, tylko dlatego, że sprawia<br></br>
