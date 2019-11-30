@@ -102,7 +102,7 @@ export default () => {
             </div> 
           </div>
           <div className="column has-text-centered  is-narrow">
-            <img src="/img/onas_picture3.jpg" width="550px"></img>
+            <img src="/img/onas_picture_new.jpeg" width="550px"></img>
           </div>
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>
