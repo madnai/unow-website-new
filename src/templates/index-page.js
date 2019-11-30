@@ -18,8 +18,8 @@ import praca from '../../static/img/gallery/hover/praca.png';
 import pasja from '../../static/img/gallery/hover/pasja.png';
 import przyjaciele from '../../static/img/gallery/hover/przyjaciele.png';
 import podroze from '../../static/img/gallery/hover/podroze.png';
-import pieniadze from '../../static/img/gallery/hover/pieniadze.png';
-import ja from '../../static/img/gallery/hover/ja.png';
+import pieniadze from '../../static/img/gallery/hover/pieniadze_mniejpixel.png';
+import ja from '../../static/img/gallery/hover/ja_mniejpixel.png';
 import rodzina from '../../static/img/gallery/hover/rodzina.png';
 import wiedza from '../../static/img/gallery/hover/wiedza.png';
 import TextLoop from "react-text-loop";
@@ -125,10 +125,10 @@ export const IndexPageTemplate = ({
             <HoverImage src="/img/gallery/pasja.png"  hoverSrc={pasja} className="masonry-img" alt="pasja" width="100%" />
           </Link>
           <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
-            <HoverImage src="/img/gallery/ja.png" hoverSrc={ja} className="masonry-img" alt="ja" width="100%" />
+            <HoverImage src="/img/gallery/ja_mniejpixel.png" hoverSrc={ja} className="masonry-img" alt="ja" width="100%" />
           </Link>    
           <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
-            <HoverImage src="/img/gallery/pieniadze.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
+            <HoverImage src="/img/gallery/pieniadze_mniejpixel.png" hoverSrc={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
           </Link>    
           <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
             <HoverImage2 src="/img/gallery/milosc.png" hoverSrc={milosc} className="masonry-img" alt="milosc" width="100%" />
