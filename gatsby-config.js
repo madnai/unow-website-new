@@ -69,6 +69,12 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-anchor',
+      options: {
+        rss: 'https://anchor.fm/s/11f9c32c/podcast/rss',
+      },
+    },
+    {
       resolve: 'gatsby-plugin-purgecss', // purges all unused/unreferenced css rules
       options: {
         develop: true, // Activates purging in npm run develop
@@ -83,7 +89,8 @@ module.exports = {
           families: ['Droid Sans', 'Quicksand', 'Anton', 'Lato', 'Didact Gothic', 'Poppins', 'Oswald', 'Open Sans Condensed' , 'Overpass' , 'IBM Plex Sans Condensed']
         }
       }
-    } // make sure to keep it last in the array
+    }, // make sure to keep it last in the array
+    
   ],
   // for avoiding CORS while developing Netlify Functions locally
   // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
