@@ -6,6 +6,7 @@ export const parseToEpisode = (anchorEpisode) => {
     ...rest,
     duration: itunes ? parseInt(itunes.duration) : 0,
     cover: itunes ? itunes.image : '',
+    episode: itunes ? itunes.episode : '',
     url: enclosure ? enclosure.url : '',
   };
 

@@ -1,9 +1,6 @@
 import React from 'react';
 import Layout from '../components/Layout'
 import { useStaticQuery, graphql } from 'gatsby';
-// import { Flex, Heading } from 'rebass';
-// import Episode from '../components/Episode';
-// import ErrorMessage from '../components/ErrorMessage';
 import { parseToEpisode } from '../utils/parser';
 import Episode from '../components/Episode'
 
@@ -12,14 +9,14 @@ import Episode from '../components/Episode'
 const EpisodesTemplate = ({ episodes = [] }) => {
   return (
     <Layout>
-      <section style={{ marginTop: '20px'}}>
+      <section style={{ marginTop: '20px', marginBottom: '20px'}}>
         <div className="container">
           <div class="columns">
             <div class="column is-10 is-offset-1">
             {episodes.length > 0 ? (
               <div>
                 {episodes.map(episode => (
-                  <Episode large {...episode} key={episode.id} />
+                  <Episode large {...episode} key={episode.id} details={episode.id} />
                 ))}
               </div>
             ) : (
@@ -48,6 +45,7 @@ const Episodes = () => {
           itunes {
             image
             duration
+            episode
           }
           contentSnippet
           publishedDate: isoDate(formatString: "DD MMM YYYY")

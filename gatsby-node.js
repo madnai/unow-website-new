@@ -2,13 +2,14 @@ const _ = require('lodash')
 const path = require('path')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+const accents = require('remove-accents');
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      pages: allMarkdownRemark(limit: 1000) {
         edges {
           node {
             id
@@ -22,6 +23,25 @@ exports.createPages = ({ actions, graphql }) => {
           }
         }
       }
+      podcast: allAnchorEpisode(sort: { order: ASC, fields: pubDate }) {
+        nodes {
+          id
+          title
+          link
+          content
+          itunes {
+            image
+            duration
+          }
+          contentSnippet
+          publishedDate: isoDate(formatString: "DD MMM YYYY")
+          enclosure {
+            url
+            type
+            length
+          }
+        }
+      }
     }
   `).then(result => {
     if (result.errors) {
@@ -29,7 +49,7 @@ exports.createPages = ({ actions, graphql }) => {
       return Promise.reject(result.errors)
     }
 
-    const posts = result.data.allMarkdownRemark.edges
+    const posts = result.data.pages.edges
 
     posts.forEach(edge => {
       const id = edge.node.id
@@ -43,6 +63,25 @@ exports.createPages = ({ actions, graphql }) => {
         context: {
           id,
         },
+      })
+    })
+
+    const podcasts = result.data.podcast.nodes;
+
+    podcasts.forEach(podcast => {
+      const id = podcast.id;
+      const title = accents(podcast.title)
+      const par = title.replace(/\s+/g, '-');
+      const final = par.replace(/\?/g,'')
+
+      createPage({
+        path: `start/${final}`,
+        component: path.resolve(
+          `src/templates/podcastDetails.js`
+        ),
+        context: {
+          podcastId: id
+        }
       })
     })
 

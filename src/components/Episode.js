@@ -1,51 +1,44 @@
-import React, { useContext } from 'react';
+import React from 'react';
+import { Link } from 'gatsby'
 import ReactAudioPlayer from 'react-audio-player';
-
-// import * as PodcastTypes from '../types/Podcast';
-// import AudioPlayer from './AudioPlayer';
-// import { Card, Text, Box, Flex, Heading } from 'rebass';
-// import styled, { ThemeContext } from 'styled-components';
-// import moment from 'moment';
-
-// const numberToDuration = (seconds) =>
-//   moment.duration(seconds, 'seconds').humanize();
-
-// const EpisodeTitle = styled(Heading)`
-//   text-overflow: ellipsis;
-//   overflow: hidden;
-//   white-space: nowrap;
-// `;
+import accents from 'remove-accents';
 
 const Episode = ({
   title,
   link,
   publishedDate,
   cover,
+  episode,
   url,
   content,
   duration,
   large,
+  details
 }) => {
+
+  const title2 = accents(title)
+  const par = title2.replace(/\s+/g, '-');
+  const cos = par.replace(/\?/g,'')
 
   return (
     <div className="box" style={{marginBottom: '20px', marginTop: '20px'}}>
       <article className="media">
         <div className="media-left">
           <figure className="image is-128x128" style={{width: '128px'}}>
-            {console.log('image ', content)}
             <img src={cover} />
           </figure>
         </div>
         <div className="media-content">
           <div className="content">
             <p>
-              <h3 className="title">{title}</h3> 
+              <Link to={`start/${cos}`}><h3 className="title">{`${episode}. ${title}`}</h3> </Link>
           
               <div dangerouslySetInnerHTML={{ __html: content.substring(0, 250) }} />
             </p>
           </div>
           <ReactAudioPlayer
             src={url}
+            style={{width: '100%'}}
             controls
           />
         </div>
