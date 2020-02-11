@@ -5,7 +5,8 @@ class HoverImage extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      src: this.props.src
+      src: this.props.src,
+      webpSrc: this.props.webp
     }
   }
 
@@ -17,25 +18,33 @@ class HoverImage extends React.Component {
   }
 
   mouseOver = () => {
-    this.setState({ src: this.props.hoverSrc })
+    this.setState({ src: this.props.hoverSrc, webpSrc: this.props.hoverWebp })
   }
 
   mouseOut = () => {
-    this.setState({ src: this.props.src })
+    this.setState({ src: this.props.src, webpSrc: this.props.webp })
   }
 
   render() {
     console.log('props: ', this.props.src)
     console.log('props hover: ', this.props.hoverSrc)
     return (
-      <img
-        src={this.state.src}
-        style={this.props.style}
+      // <img
+      //   src={this.state.src}
+      //   style={this.props.style}
+      //   onMouseOver={this.mouseOver}
+      //   onMouseOut={this.mouseOut}
+      //   onClick={this.handleClick}
+      //   className={this.props.className}
+      // />
+      <picture style={this.props.style}
         onMouseOver={this.mouseOver}
         onMouseOut={this.mouseOut}
         onClick={this.handleClick}
-        className={this.props.className}
-      />
+        className={this.props.className}>
+        <source srcSet={this.state.webpSrc} type="image/webp" />
+        <img src={this.state.src} alt="Alt Text!"  />
+      </picture>
     )
   }
 }
