@@ -38,9 +38,11 @@ export default () => {
 
     return (
         <Layout>
-        
         <section style={{marginTop: '20px', marginBottom: '20px'}}> {/* TODO: ustaw margines w innym miejscu */}
-          <img src="/img/charytatywne-full.png"></img>
+          <picture>
+            <source srcSet="/img/charytatywne-full.webp" type="image/webp" />
+            <img src="/img/charytatywne-full.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>        
         </section>
         <section>
           <div className="container">

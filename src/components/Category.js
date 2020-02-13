@@ -7,6 +7,7 @@ import {
 
 const Category = ({ categoryName, description, details, imgName  }) => {
   const imgURL = `/img/kategorie/${imgName}.png`;
+  const imgURLWebp = `/img/kategorie/${imgName}.webp`;
 
   return (
     <Layout>
@@ -23,7 +24,10 @@ const Category = ({ categoryName, description, details, imgName  }) => {
               </p>
             </div>
             <div className="column is-8">
-              <img src={imgURL}></img>
+            <picture>
+              <source srcSet={imgURLWebp} type="image/webp" />
+              <img src={imgURL} alt="Alt Text!"  />
+            </picture>
             </div>
           </div>
         </div>
@@ -40,7 +44,10 @@ const Category = ({ categoryName, description, details, imgName  }) => {
             </p>
           </div>
           <div className="column is-8">
-            <img src={imgURL}></img>
+            <picture>
+              <source srcSet={imgURLWebp} type="image/webp" />
+              <img src={imgURL} alt="Alt Text!"  />
+            </picture>
           </div>
         </div>
       </div>

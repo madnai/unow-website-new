@@ -26,17 +26,7 @@ class HoverImage extends React.Component {
   }
 
   render() {
-    console.log('props: ', this.props.src)
-    console.log('props hover: ', this.props.hoverSrc)
     return (
-      // <img
-      //   src={this.state.src}
-      //   style={this.props.style}
-      //   onMouseOver={this.mouseOver}
-      //   onMouseOut={this.mouseOut}
-      //   onClick={this.handleClick}
-      //   className={this.props.className}
-      // />
       <picture style={this.props.style}
         onMouseOver={this.mouseOver}
         onMouseOut={this.mouseOut}

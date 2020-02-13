@@ -54,7 +54,10 @@ export default () => {
         <MobileView>
         <div className="container" style={{marginBottom: '50px'}}>
         {/* <div className="column has-text-centered is-narrow"> */}
-            <img src="/img/kasia-and-damian.png"></img>
+            <picture>
+              <source srcSet="/img/onas_picture_new.webp" type="image/webp" />
+              <img src="/img/onas_picture_new.jpeg" alt="Alt Text!"  />
+            </picture>
           {/* </div> */}
           <div class="columns is-mobile">
             <div class="column is-pulled-left" style={{marginTop: '-15%'}}>
@@ -96,7 +99,10 @@ export default () => {
             </div> 
           </div>
           <div className="column has-text-centered  is-narrow">
-            <img src="/img/onas_picture_new.jpeg" width="550px"></img>
+            <picture>
+              <source srcSet="/img/onas_picture_new.webp" type="image/webp" />
+              <img src="/img/onas_picture_new.jpeg" alt="Alt Text!"  width="550px" />
+            </picture>
           </div>
           <div className="column has-text-centered is-narrow">
             <h1 class="title" style={{textAlign: 'left', marginTop: '30px', marginBottom: '0px', fontFamily: 'Lato', letterSpacing: '2px'}}><br></br><br></br><br></br>

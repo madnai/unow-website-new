@@ -57,7 +57,10 @@ export default () => {
                   </span></a></div>
               </div>
               <div className='column is-6' style={{marginRight: '-100px', marginTop: '-5%'}}>
-              <img src='/img/warsztaty-charytatywne-wiecej.png' alt="UNOWbrowser" width="100%" align="right" />
+              <picture>
+                <source srcSet="/img/warsztaty-charytatywne-wiecej.webp" type="image/webp" />
+                <img src="/img/warsztaty-charytatywne-wiecej.png" width="100%" align="right" />
+              </picture>
               </div>
             </div>
           </div>
@@ -68,8 +71,10 @@ export default () => {
         <div className="section" style={{padding: '1rem 1.5rem 0rem 1.5rem'}}>
           <div className="columns">
             <div className="column is-12">
-            <img src='/img/warsztaty-charytatywne-wiecej.png' alt="UNOWbrowser" width="100%"  />
-
+            <picture>
+              <source srcSet="/img/warsztaty-charytatywne-wiecej.webp" type="image/webp" />
+              <img src="/img/warsztaty-charytatywne-wiecej.png" width="100%" />
+            </picture>
             </div>
           </div>
         </div>

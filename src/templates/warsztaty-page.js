@@ -2,10 +2,15 @@ import React from 'react'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import styled from 'styled-components'
-import charytatywneImg from '../../static/img/ch.png';
-import charytatywneImgHover from '../../static/img/ch_h.png';
-import indywidualneImg from '../../static/img/in.png';
-import indywidualneImgHover from '../../static/img/in_h.png';
+import charytatywneImg from '../../static/img/charytatywne.png';
+import charytatywneWebp from '../../static/img/charytatywne.webp';
+import charytatywneImgHover from '../../static/img/charytatywne_hover.png';
+import charytatywneWebpHover from '../../static/img/charytatywne_hover.webp';
+
+import indywidualneImg from '../../static/img/indywidualne.png';
+import indywidualneWebp from '../../static/img/indywidualne.webp';
+import indywidualneImgHover from '../../static/img/indywidualne_hover.png';
+import indywidualneWebpHover from '../../static/img/indywidualne_hover.webp';
 import HoverImage from '../components//HoverImage';
 import {
   BrowserView,
@@ -40,10 +45,22 @@ const WarsztatyPage = ({data}) => {
             <div style={{marginBottom: '50px'}}>
               <div className="columns" style={{marginTop: '70px'}}>
                 <div className="column " style={{padding: '0px 20px 20px 0px'}}>
-                  <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} /></Link>
+                  <Link to="/warsztaty/charytatywne">
+                    <HoverImage 
+                      src={charytatywneImg} 
+                      webp={charytatywneWebp} 
+                      hoverSrc={charytatywneImgHover}
+                      hoverWebp={charytatywneWebpHover} />
+                  </Link>
                 </div>
                 <div className="column " style={{padding: '0px'}}>
-                  <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover}  /></Link>
+                  <Link to="/warsztaty/indywidualne">
+                    <HoverImage 
+                      src={indywidualneImg} 
+                      webp={indywidualneWebp}  
+                      hoverSrc={indywidualneImgHover}  
+                      hoverWebp={indywidualneWebpHover}/>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -54,10 +71,24 @@ const WarsztatyPage = ({data}) => {
             <div style={{marginBottom: '20px'}}>
               <div className="columns" style={{marginTop: '30px'}}>
                 <div className="column  " style={{padding: '0px 0px 20px 0px'}}>
-                  <Link to="/warsztaty/charytatywne"><HoverImage src={charytatywneImg} hoverSrc={charytatywneImgHover} width='100%' /></Link>
+                  <Link to="/warsztaty/charytatywne">
+                      <HoverImage 
+                        src={charytatywneImg} 
+                        webp={charytatywneWebp} 
+                        hoverSrc={charytatywneImgHover}
+                        hoverWebp={charytatywneWebpHover}
+                        width="100%" />
+                    </Link>
                 </div>
                 <div className="column " style={{padding: '0px'}}>
-                  <Link to="/warsztaty/indywidualne"><HoverImage src={indywidualneImg}  hoverSrc={indywidualneImgHover} width='100%' /></Link>
+                  <Link to="/warsztaty/indywidualne">
+                      <HoverImage 
+                        src={indywidualneImg} 
+                        webp={indywidualneWebp}  
+                        hoverSrc={indywidualneImgHover}  
+                        hoverWebp={indywidualneWebpHover}
+                        width="100%" />
+                    </Link>                
                 </div>
               </div>
             </div>
