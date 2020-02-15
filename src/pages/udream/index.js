@@ -23,7 +23,7 @@ export default () => {
     <MobileView>
       <Layout>
           <div class="container">
-            <img src="/img/app.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
+            <img src="/img/app1.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
           </div>
       </Layout>
     </MobileView>
