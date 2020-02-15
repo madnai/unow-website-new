@@ -69,16 +69,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-mailchimp',
-      options: {
-        // Avoid including your key directly in your file.
-        // Instead, opt for adding them to .env files for extra
-        // security ;)
-        key: '722faf72da3ed7835ff7536fb3e8302c-us4',
-        rootURL: 'https://us4.api.mailchimp.com/3.0',
-      },
-    },
-    {
       resolve: 'gatsby-source-anchor',
       options: {
         rss: 'https://anchor.fm/s/11f9c32c/podcast/rss',
