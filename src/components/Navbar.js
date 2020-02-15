@@ -73,7 +73,7 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '12px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/start" style={{color: '#D80029'}}>START</ExactNavLink>
+                  <ExactNavLink to="/start" style={{color: '#D80029'}}>PODCAST</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
             </div>
