@@ -110,12 +110,12 @@ render() {
               </Nav.Item>
               <Nav.Item>
                 <span class="nav-link" style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <a href="https://relaxed-yalow-4ffa99.netlify.com/">UDREAM</a>
+                  <ExactNavLink to="/udream">UDREAM</ExactNavLink>
                 </span>
               </Nav.Item>
               <Nav.Item>
                 <Nav.Link style={{fontSize: '13px', fontWeight: '700', letterSpacing: '0.15em', color: 'black', paddingRight: '0px'}}>
-                  <ExactNavLink to="/start">START</ExactNavLink>
+                  <ExactNavLink to="/start" style={{color: '#D80029'}}>PODCAST</ExactNavLink>
                 </Nav.Link>
               </Nav.Item>
             </div>
