@@ -1,7 +1,6 @@
 var proxy = require('http-proxy-middleware')
 
 module.exports = {
-  pathPrefix: `/kochanie123`,
   siteMetadata: {
     title: 'Unow',
     description:
@@ -67,6 +66,16 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-mailchimp',
+      options: {
+        // Avoid including your key directly in your file.
+        // Instead, opt for adding them to .env files for extra
+        // security ;)
+        key: '722faf72da3ed7835ff7536fb3e8302c-us4',
+        rootURL: 'https://us4.api.mailchimp.com/3.0',
       },
     },
     {
