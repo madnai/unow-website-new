@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import Layout from '../components/Layout';
 import ReactAudioPlayer from 'react-audio-player';
 import readingTime from 'reading-time';
+import Skeleton from 'react-loading-skeleton';
 
 export default class PodcastDetails extends React.Component {
 
@@ -20,7 +21,7 @@ export default class PodcastDetails extends React.Component {
                 <div className="column is-6">
                   {console.log(typeof stats.minutes)}
                 <p>{podcast.publishedDate} | {Math.floor(stats.minutes)} min. czytania</p>
-                  <h1 style={{marginTop: 'unset'}}>{podcast.title}</h1>
+                  <h1 style={{marginTop: 'unset'}}>{podcast.title || <Skeleton />}</h1>
                   <img src={podcast.itunes.image} style={{marginBottom: '20px'}}/>
                   <ReactAudioPlayer
                     src={podcast.enclosure.url}

@@ -1,6 +1,7 @@
 var proxy = require('http-proxy-middleware')
 
 module.exports = {
+  pathPrefix: `/kochanie123`,
   siteMetadata: {
     title: 'Unow',
     description:

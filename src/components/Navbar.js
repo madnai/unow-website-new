@@ -8,6 +8,7 @@ import {
   BrowserView,
   MobileView
 } from "react-device-detect";
+import Skeleton from 'react-loading-skeleton';
 
 
 const isActive = ({ isCurrent }) => {
