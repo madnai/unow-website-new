@@ -55,8 +55,8 @@ export default () => {
         <div className="container" style={{marginBottom: '50px'}}>
         {/* <div className="column has-text-centered is-narrow"> */}
             <picture>
-              <source srcSet="/img/onas_picture_new.webp" type="image/webp" />
-              <img src="/img/onas_picture_new.jpeg" alt="Alt Text!"  />
+              {/* <source srcSet="/img/onas_picture_new.webp" type="image/webp" /> */}
+              <img src="/img/my.png" alt="Alt Text!"  />
             </picture>
           {/* </div> */}
           <div class="columns is-mobile">
@@ -100,8 +100,8 @@ export default () => {
           </div>
           <div className="column has-text-centered  is-narrow">
             <picture>
-              <source srcSet="/img/onas_picture_new.webp" type="image/webp" />
-              <img src="/img/onas_picture_new.jpeg" alt="Alt Text!"  width="550px" />
+              {/* <source srcSet="/img/onas_picture_new.webp" type="image/webp" /> */}
+              <img src="/img/my.png" alt="Alt Text!"  width="550px" />
             </picture>
           </div>
           <div className="column has-text-centered is-narrow">

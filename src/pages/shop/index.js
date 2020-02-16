@@ -14,7 +14,7 @@ export default () => {
           <div class="container" style={{marginBottom: '50px', paddingLeft: '100px', paddingRight: '100px'}}>
             <picture>
               {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
-              <img src="/img/soon1.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+              <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
           </div>
         </section>
@@ -25,7 +25,7 @@ export default () => {
           <div class="container">
             <picture>
               <source srcSet="/img/soon.webp" type="image/webp" />
-              <img src="/img/soon1.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+              <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
           </div>
       </Layout>
