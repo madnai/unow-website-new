@@ -17,7 +17,7 @@ export default () => {
               {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
               <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
-            <div class="columns is-centered">
+            {/* <div class="columns is-centered">
             
             <Mailchimp
               action='https://unow.us4.list-manage.com/subscribe/post?u=f6224231d9d0990931893424f&amp;id=b4f5d178e6'
@@ -42,7 +42,7 @@ export default () => {
               }
               className='nnn'
               />
-              </div>
+              </div> */}
           </div>
         </section>
       </Layout>
