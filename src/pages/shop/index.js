@@ -1,5 +1,6 @@
 import React from 'react'
-import Layout from '../../components/Layout'
+import Layout from '../../components/Layout';
+import EmailListForm from '../../components/EmailListForm';
 import {
   BrowserView,
   MobileView
@@ -16,6 +17,14 @@ export default () => {
               {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
               <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+                <div class="content">
+                <EmailListForm></EmailListForm>
+
+                </div>
+              </div>
+            </div>
            
           </div>
         </section>
