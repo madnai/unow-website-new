@@ -23,10 +23,25 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-                <div class="content">
-                <EmailListForm></EmailListForm>
-
-                </div>
+              <form name="contact" method="post" method="POST" data-netlify="true" >
+                    <h1>Zostaw swój email jeśli chcesz!</h1>
+                    <div className="field" style={{display: 'inline-flex'}}>
+                        <div className="control">
+                                <input
+                                    class="input"
+                                    style={{}}
+                                    placeholder="Twój email"
+                                    name="email"
+                                    type="email"
+                                />
+                        </div>
+                        <button class="button is-black" 
+                                style={{backgroundColor: 'black', color: 'white'}} 
+                                type="submit">Chcę</button>
+                            
+                    </div>
+                    {/* <p style={{color: '#d8002a'}}>{message}</p> */}
+                    </form>
               </div>
             </div>
            
