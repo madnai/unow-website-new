@@ -1,10 +1,14 @@
 import React from 'react'
-import Layout from '../../components/Layout';
-import EmailListForm from '../../components/EmailListForm';
+import Layout from '../components/Layout';
+import Loadable from "@loadable/component"
 import {
-  BrowserView,
-  MobileView
-} from "react-device-detect";
+    BrowserView,
+    MobileView
+  } from "react-device-detect";
+const LoadableEmailListForm = Loadable(() => import('../components/EmailListForm'))
+
+// import EmailListForm from '../components/EmailListForm';
+
 
 export default () => {
   return (
@@ -20,7 +24,7 @@ export default () => {
             <div class="columns is-centered">
               <div class="column has-text-centered">
                 <div class="content">
-                <EmailListForm></EmailListForm>
+                <LoadableEmailListForm></LoadableEmailListForm>
 
                 </div>
               </div>

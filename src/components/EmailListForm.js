@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import addToMailchimp from 'gatsby-plugin-mailchimp';
+// import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 const EmailListForm = () => {
 
@@ -8,28 +8,28 @@ const EmailListForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    addToMailchimp(email)
-    .then((data) => {
-      if(data.result === 'success') {
-          setMessage('Odezwiemy się do Ciebie w ciągu 24 godzin.')
-      } else if (data.result === 'error' && data.msg.includes('already')) {
-          setMessage('Już mamy twój email na liście.')
-      } else {
-          setMessage('Niepoprawny email.')
-      }
-    })
-    .catch((error) => {
-      console.log(error)
-    });
-  };
+  }
+  //   addToMailchimp(email)
+  //   .then((data) => {
+  //     if(data.result === 'success') {
+  //         setMessage('Odezwiemy się do Ciebie w ciągu 24 godzin.')
+  //     } else if (data.result === 'error' && data.msg.includes('already')) {
+  //         setMessage('Już mamy twój email na liście.')
+  //     } else {
+  //         setMessage('Niepoprawny email.')
+  //     }
+  //   })
+  //   .catch((error) => {
+  //     console.log(error)
+  //   });
+  // };
 
   const handleEmailChange = (event) => {
     setEmail(event.currentTarget.value);
   };
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form name="contact" method="post" method="POST" data-netlify="true" >
       <h1>Zostaw swój email jeśli chcesz!</h1>
        <div className="field" style={{display: 'inline-flex'}}>
            <div className="control">
@@ -38,8 +38,8 @@ const EmailListForm = () => {
                     style={{}}
                     placeholder="Twój email"
                     name="email"
-                    type="text"
-                    onChange={handleEmailChange}
+                    type="email"
+                    // onChange={handleEmailChange}
                 />
            </div>
            <button class="button is-black" 

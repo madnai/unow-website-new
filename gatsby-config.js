@@ -33,12 +33,7 @@ module.exports = {
         name: 'images',
       },
     },
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-        endpoint: 'https://unow.us4.list-manage.com/subscribe/post?u=f6224231d9d0990931893424f&amp;id=b4f5d178e6',
-      },
-    },
+  
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {
@@ -73,6 +68,12 @@ module.exports = {
       resolve: 'gatsby-plugin-netlify-cms',
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://unow.us4.list-manage.com/subscribe/post?u=f6224231d9d0990931893424f&amp;id=b4f5d178e6',
       },
     },
     {
