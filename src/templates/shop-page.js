@@ -24,16 +24,19 @@ export default () => {
             <div class="columns is-centered">
               <div class="column has-text-centered">
               <form name="contact"  method="POST" data-netlify="true" >
+              <input type="hidden" name="form-name" value="contact" />
+
                     <h1>Zostaw swój email jeśli chcesz!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
-                                <input
-                                    class="input"
-                                    style={{}}
-                                    placeholder="Twój email"
-                                    name="email"
-                                    type="email"
-                                />
+                            <input
+                                class="input"
+                                style={{}}
+                                placeholder="Twój email"
+                                name="email"
+                                type="email"
+                                value="asd"
+                            />
                         </div>
                         <button class="button is-black" 
                                 style={{backgroundColor: 'black', color: 'white'}} 
