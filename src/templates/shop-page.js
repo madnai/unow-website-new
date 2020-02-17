@@ -23,7 +23,7 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact" method="post" method="POST" data-netlify="true" >
+              <form name="contact"  method="POST" data-netlify="true" >
                     <h1>Zostaw swój email jeśli chcesz!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
