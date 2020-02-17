@@ -38,7 +38,7 @@ const Episode = ({
         <div className="media-content">
           <div className="content">
             <p>
-              <Link to={`start/${titleFinal}`}><h3 className="title">{`${episode}. ${title}`}</h3> </Link>
+              <Link to={`podcast/${titleFinal}`}><h3 className="title">{`${title}`}</h3> </Link>
               <div dangerouslySetInnerHTML={{ __html: content.substring(0, 250) }} />
             </p>
           </div>

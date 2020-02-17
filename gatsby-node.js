@@ -75,7 +75,7 @@ exports.createPages = ({ actions, graphql }) => {
       const final = par.replace(/\?/g,'')
 
       createPage({
-        path: `start/${final}`,
+        path: `podcast/${final}`,
         component: path.resolve(
           `src/templates/podcastDetails.js`
         ),
