@@ -4,9 +4,6 @@ import {
     BrowserView,
     MobileView
   } from "react-device-detect";
-// const LoadableEmailListForm = Loadable(() => import('../components/EmailListForm'))
-
- import EmailListForm from '../components/EmailListForm';
 
 
 export default () => {
@@ -27,7 +24,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1>Zostaw swój email jeśli chcesz!</h1>
+                    <h1 style={{fontSize: '1.75em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
