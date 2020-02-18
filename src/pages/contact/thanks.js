@@ -70,9 +70,36 @@ export default () => {
       <Layout>
           <div class="container">
             <picture>
-              <source srcSet="/img/soon.webp" type="image/webp" />
+              {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
               <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
+            <div class="columns is-centered">
+              <div class="column has-text-centered">
+              <form name="contact"  method="POST" data-netlify="true" >
+              <input type="hidden" name="form-name" value="contact" />
+
+                    <h1 style={{fontSize: '1.5em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
+                    <div className="field" style={{display: 'inline-flex'}}>
+                        <div className="control">
+                            <input
+                                class="input"
+                                placeholder="Twój email"
+                                name="email"
+                                type="email"
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <button class="button is-black" 
+                                style={{backgroundColor: 'black', color: 'white'}} 
+                                type="submit">Chcę</button>
+                            
+                    </div>
+                    <h1 style={{color: 'red' ,fontSize: '1.5em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+
+                    </form>
+              </div>
+            </div>
           </div>
       </Layout>
     </MobileView>
