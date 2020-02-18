@@ -40,7 +40,7 @@ export default () => {
               twoich celów osobistych w różnych kategoriach życia. Posłuchamy o twoich doświadczeniach i skupimy się na twoim rozwoju osobistym w obszarach, które pragniesz pielęgnować. <br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}><span style={{color: '#C11B30'}}>Do kogo</span> są skierowane? </span><br></br>
-              Warsztaty charytatywne UNOW skierowane są do ludzi, którzy pragną się rozwijać, spełniać swoje marzenia i osiągać cele. <br></br><br></br>
+              Warsztaty indywidualne UNOW skierowane są do ludzi, którzy pragną się rozwijać, spełniać swoje marzenia i osiągać cele. <br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}> Jaki jest <span style={{color: '#C11B30'}}>koszt?</span> </span><br></br>
               Warsztaty indywidualne są bezpłatne.    <br></br><br></br>
@@ -103,10 +103,10 @@ export default () => {
               <br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}><span style={{color: '#C11B30'}}>Do kogo</span> są skierowane? </span><br></br>
-              Warsztaty charytatywne UNOW skierowane są do ludzi, którzy pragną się rozwijać, spełniać swoje marzenia i osiągać cele. <br></br><br></br>
+              Warsztaty indywidualne UNOW skierowane są do ludzi, którzy pragną się rozwijać, spełniać swoje marzenia i osiągać cele. <br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}> Jaki jest <span style={{color: '#C11B30'}}>koszt?</span> </span><br></br>
-              Warsztaty charytatywne zawsze są bezpłatne.  <br></br><br></br>
+              Warsztaty indywidualne zawsze są bezpłatne.  <br></br><br></br>
 
               <span style={{fontWeight: 'bold'}}><span style={{color: '#C11B30'}}>Ile</span> trwają? </span><br></br>
               Podstawą są trzy spotkania po 3 godziny.<br></br><br></br>

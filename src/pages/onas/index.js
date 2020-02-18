@@ -20,31 +20,30 @@ export default () => {
                   <div className="content">
                     <p style={{ textAlign: 'justify', fontFamily: 'Lato', fontSize: '14px'}}>
                     Firma UNOW powstaje z potrzeby serca, aby pomóc ludziom odnajdywać, wierzyć i realizować cele 
-                    w życiu oraz doceniać drogę i dostrzegać rzeczy na drodze w realizacji tych celów. Założycielami 
-                    firmy są Damian Podraza i Katarzyna Stefańska. Damian specjalizuje się w programowaniu oraz zarządzaniu
-                     w jednej z korporacji. Prywatnie jest uzdolnionym muzykiem, entuzjastą filozofii oraz pasjonatem literatury.
-                      Katarzyna spełnia się zawodowo w branży filmowej i telewizyjnej. Jej pasją jest zarządzanie i budowanie relacji
-                       międzyludzkie. Prywatnie prowadzi bloga motywacyjnego oraz zaraża ludzi dobrą energią. <br></br><br></br>
-                       Wspólnie odkryliśmy siłę, którą czerpiemy ze spełniania marzeń, opracowując model, dzięki któremu każdy 
+                    w życiu oraz doceniać drogę i dostrzegać rzeczy na drodze w realizacji tych celów. Twórcami projektu są Damian Podraza i Katarzyna Stefańska. 
+                    Damian specjalizuje się w programowaniu oraz w rozwiązywaniu problemów. Prywatnie jest uzdolnionym muzykiem, entuzjastą filozofii oraz psychologii.
+                      Kasia spełnia się zawodowo w branży filmowej i telewizyjnej. Jej pasją jest zarządzanie i budowanie relacji
+                       międzyludzkich. Prywatnie prowadzi bloga motywacyjnego (<a href="http://jaknieteraztokiedy.pl">www.jaknieteraztokiedy.pl</a>) oraz zaraża ludzi dobrą energią. <br></br><br></br>
+                       Wspólnie odkryliśmy siłę, którą czerpiemy ze spełniania marzeń, tworząc projekt, dzięki któremu każdy 
                        człowiek ma szansę zbliżyć się do realizacji swoich celów życiowych. Nad metodą pracujemy od dwóch lat, 
-                       ciągle ją udoskonalając i szukając nowych rozwiązań. Obecnie skupiamy się na badaniach i obserwacji wdrażanych metod.
+                       ciągle ją udoskonalając i szukając nowych rozwiązań. 
                       W przyszłości pragniemy oddać w ręce ludzi aplikację wspierającą ich w realizacji marzeń. Niebawem planujemy 
                       również wydać dzienniki wdzięczności, pokazując konkretne korzyści płynące z codziennego doceniania rzeczy w 
                       życiu. Wkrótce powstanie również planner — kalendarz na 2021 rok pozwalający zorganizować i zaplanować czas. 
-                      Będąc świadomą firmą, która dba o środowisko, produkując każdy artykuł, stworzymy go w zgodzie z naturą.
+                      Chcemy być świadomą firmą, która dba o środowisko, produkując każdy artykuł, stworzymy go w zgodzie z naturą.
                       Część zysków ze sprzedaży produktów pragniemy przekazać na cele charytatywne, informując w ten sposób, że za
                        firmą UNOW stoi szersza idea, a co więcej, że każdy ma możliwość pomagania.
                       <br></br><br></br>
-                      Prowadzimy również warsztaty charytatywne oraz warsztaty indywidualne. Oparte są one na pracy z ludźmi nad
+                      Prowadzimy również warsztaty charytatywne oraz indywidualne. Oparte są one na pracy z ludźmi nad
                        wytyczeniem sobie marzeń na najbliższy rok oraz pomocy w realizacji tych marzeń. Warsztaty charytatywne
-                        oparte są na pracy z dziećmi oraz seniorami. Warsztaty indywidualne dotyczą analizy przeszłości i 
-                        przyszłości danej osoby oraz skupieniu się na tym, czego dana osoba chce w różnych kategoriach życia
-                         osiągać przez najbliższy rok. Nie ma znaczenia czy ten rok dopiero się rozpoczął, trwa czy już się
-                          kończy. Liczymy rok od zrealizowania całego indywidualnego programu.
+                        oparte są na pracy z dziećmi oraz seniorami. Warsztaty indywidualne skupiają się na analizie danej osoby, a przede wzystkim na określeniu 
+                         czego dana osoba chce w różnych kategoriach życia
+                         przez najbliższy rok. Nie ma znaczenia czy ten rok dopiero się rozpoczął, trwa czy już się
+                          kończy. 
                       Bardzo skrupulatnie prowadzimy social media: Facebook, Linkedin, Instagram, Pinterest, TikTok, aby docierać 
                       ze swoją ideą do jak najszerszego grona osób.
-                      Chcemy być globalną marką, kojarzącą się z marzeniami, pomaganiem, planowaniem i docenianiem życia.
-                      <br></br> 
+                      Chcemy być kojarzeni z marzeniami, pomaganiem, planowaniem i docenianiem życia.
+                      <br></br>
                     </p>
                   </div>
                 </div>

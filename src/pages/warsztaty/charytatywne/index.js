@@ -51,12 +51,7 @@ export default () => {
                 <div className="content">
                   <h2 style={{textAlign: 'center'}}> Warsztaty charytatywne dla dzieci</h2>
                   <p style={{ textAlign: 'justify', fontFamily: 'Lato'}}>
-                  Bardzo wierzymy, że wszyscy ludzie mają jakieś pragnienia. Każdy o czymś marzy, coś sobie wyobraża, czegoś pragnie.
-                   Jednak kiedy wychowujemy się w rodzinie mamy większe możliwości do realizacji nawet mały rzeczy.
-                    Ktoś o nas dba, komuś zależy, dostajemy prezenty na różne okazje, krewni inwestują w nas nie tylko swój cenny czas,
-                     ale i pieniądze w nasz rozwój. Jedno to wsparcie, ale drugie to, że w tych pędzących czasach mało kto ma szansę
-                      zatrzymać się i zastanowić się czego tak naprawdę chcę, w różnych kategoriach życia. Zorganizowaliśmy kilka
-                       warsztatów dla dorosłych, którzy zmienili swoje podejście i rzeczy, o których marzyli, zaczęły się spełniać.
+                  Zorganizowaliśmy kilka warsztatów dla dorosłych, którzy zmienili swoje podejście i rzeczy, o których marzyli, zaczęły się spełniać.
                         Nie jest to żadna magia, udowodnione jest bowiem naukowo, że nasza percepcja oraz mózg niezwykle silnie oddziałują
                          na obrazy. Sprawia to, że jeśli zaczynamy się przywiązywać do obrazów, wizualizujemy oraz wyobrażamy sobie poczucie
                           posiadania rzeczy, których pragniemy. To w efekcie powoduje, że przyciągamy to, o czym intensywnie myślimy. Chcemy,
@@ -65,12 +60,11 @@ export default () => {
                   </p>
                   <h2 style={{textAlign: 'center'}}> Warsztaty charytatywne dla seniorów</h2>
                   <p style={{ textAlign: 'justify', fontFamily: 'Lato'}}>
-                  Są sytuacje w życiu, kiedy każdemu z nas wydaje się, że jest już za późno. Za późno, żeby zmienić pracę, wyjechać,
-                   spełniać marzenia. Przestajemy próbować, bo wmówiliśmy sobie, że odpowiedni czas już minął. Z wiekiem, gdy jesteśmy
+                  Z wiekiem, gdy jesteśmy
                     starsi i mniej mamy czasu oraz siły nawet nie zastanawiamy się nad tym, czego pragniemy. A marzenia nie mają daty 
                     ważności, nie są zarezerwowane tylko dla młodych ludzi i nie warto z nich rezygnować. Chcemy skupić się na ludziach
                      starszych, którzy sporo przeżyli, aby móc jednocześnie czerpać od nich siłę. Dlatego stworzyliśmy cykl warsztatów 
-                     dla seniorów. Zależy nam, aby zainspirować innych do przemyślenia, o czym marzą i jakie mają cele.
+                     dla seniorów. 
                   </p>
                 </div>
               </div>
@@ -84,9 +78,9 @@ export default () => {
                 <Link to="/warsztaty/charytatywne/szczegoly" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
                 </Link>
-                <a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}>
+                {/* <a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

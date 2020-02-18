@@ -74,9 +74,9 @@ export default () => {
                 <Link to="/warsztaty/indywidualne/szczegoly" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonBlack} size="large" >Wiecej informacji</Button>
                 </Link>
-                <a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}>
+                {/* <a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}>
                   <Button className={classes.buttonDanger}  size="large">Jestem zainteresowany</Button>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

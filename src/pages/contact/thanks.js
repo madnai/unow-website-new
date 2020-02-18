@@ -25,7 +25,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Potrzebuje</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -42,7 +42,7 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: '#d8002a' ,fontSize: '1.75em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d8002a' ,fontSize: '1.75em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>
@@ -64,7 +64,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Potrzebuje</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -81,7 +81,7 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: '#d8002a' ,fontSize: '1.5em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d8002a' ,fontSize: '1.5em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>
