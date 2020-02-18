@@ -1,18 +1,4 @@
-// import React from 'react'
-// import Layout from '../../components/Layout'
 
-// export default () => (
-//   <Layout>
-//     <section className="section">
-//       <div className="container">
-//         <div className="content">
-//           <h1>Thank you!</h1>
-//           <p>This is a custom thank you page for form submissions</p>
-//         </div>
-//       </div>
-//     </section>
-//   </Layout>
-// )
 import React, { useState } from 'react'
 import Layout from '../../components/Layout';
 import {
@@ -39,7 +25,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.7em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Potrzebuje</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -56,7 +42,7 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: 'red' ,fontSize: '1.75em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d8002a' ,fontSize: '1.75em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>
@@ -78,7 +64,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Potrzebuje</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -95,7 +81,7 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: 'red' ,fontSize: '1.5em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d8002a' ,fontSize: '1.5em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>

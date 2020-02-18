@@ -5,7 +5,6 @@ import {
   BrowserView,
   MobileView
 } from "react-device-detect";
-import Newsletter from '../../../components/EmailListForm';
 
 export default () => {
   const [email, setEmail] = useState('');
@@ -56,7 +55,7 @@ export default () => {
               <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
               Dostarczamy wszystkie niezbędne materiały, m.in komputer z dostępem do bazy marzeń, kolorową drukarkę, nożyczki, kleje, kartki i ramki na tablice marzeń. <br></br><br></br><br></br>
 
-              <form name="warsztaty"  method="POST" data-netlify="true" >
+              <form name="warsztaty"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
                 <input type="hidden" name="form-name" value="warsztaty" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
@@ -122,9 +121,26 @@ export default () => {
               <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
               Dostarczamy wszystkie niezbędne materiały, m.in komputer z dostępem do bazy marzeń, kolorową drukarkę, nożyczki, kleje, kartki i ramki na tablice marzeń. <br></br><br></br><br></br>
 
-              <div className="buttons " style={{marginTop: '-15px'}}><a href="mailto:unow.pl@gmail.com" style={{textDecoration: 'none'}}><span className="button" style={{backgroundColor: '#C11B30', color: 'white'}}>
-                    Jestem zainteresowany
-                  </span></a></div>
+              <form name="warsztaty"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
+                <input type="hidden" name="form-name" value="warsztaty" />
+
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
+                    <div className="field" style={{display: 'inline-flex'}}>
+                        <div className="control">
+                            <input
+                                class="input"
+                                placeholder="Twój email"
+                                name="email"
+                                type="email"
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <button class="button is-black" 
+                                style={{backgroundColor: 'black', color: 'white'}} 
+                                type="submit">Wyślij</button>
+                    </div>
+                    </form>
               </div>
             </div>
           </div>
