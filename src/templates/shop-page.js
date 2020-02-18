@@ -1,16 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Layout from '../components/Layout';
 import {
     BrowserView,
     MobileView
   } from "react-device-detect";
-
 // const LoadableEmailListForm = Loadable(() => import('../components/EmailListForm'))
 
  import EmailListForm from '../components/EmailListForm';
 
 
 export default () => {
+    const [email, setEmail] = useState('');
+
   return (
     <>
     <BrowserView>
@@ -31,11 +32,11 @@ export default () => {
                         <div className="control">
                             <input
                                 class="input"
-                                style={{}}
                                 placeholder="Twój email"
                                 name="email"
                                 type="email"
-                                value="asd"
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
                             />
                         </div>
                         <button class="button is-black" 
