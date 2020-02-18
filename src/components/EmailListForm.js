@@ -8,7 +8,7 @@ const EmailListForm = (props) => {
     <form name="contact"  method="POST" data-netlify="true" action={props.action} >
       <input type="hidden" name="form-name" value="contact" />
 
-        <h1 style={{fontSize: '1.7em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
+        <h1 style={{fontSize: '1.5em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
         <div className="field" style={{display: 'inline-flex'}}>
             <div className="control">
                 <input
