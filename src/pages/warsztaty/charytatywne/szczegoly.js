@@ -57,7 +57,7 @@ export default () => {
               Dostarczamy wszystkie niezbędne materiały, m.in komputer z dostępem do bazy marzeń, kolorową drukarkę, nożyczki, kleje, kartki i ramki na tablice marzeń. <br></br><br></br><br></br>
 
               <form name="warsztaty"  method="POST" data-netlify="true" >
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-name" value="warsztaty" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
