@@ -21,10 +21,10 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true" >
+              <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.75em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
+                    <h1 style={{fontSize: '1.7em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -38,7 +38,7 @@ export default () => {
                         </div>
                         <button class="button is-black" 
                                 style={{backgroundColor: 'black', color: 'white'}} 
-                                type="submit">Chcę</button>
+                                type="submit">Wyślij</button>
                             
                     </div>
                     {/* <p style={{color: '#d8002a'}}>{message}</p> */}
@@ -59,10 +59,10 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true" >
+              <form name="contact"  method="POST" data-netlify="true"  >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.5em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
+                    <h1 style={{fontSize: '1.5em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -76,7 +76,7 @@ export default () => {
                         </div>
                         <button class="button is-black" 
                                 style={{backgroundColor: 'black', color: 'white'}} 
-                                type="submit">Chcę</button>
+                                type="submit">Wyślij</button>
                             
                     </div>
                     {/* <p style={{color: '#d8002a'}}>{message}</p> */}

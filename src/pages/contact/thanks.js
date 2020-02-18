@@ -39,7 +39,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.75em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
+                    <h1 style={{fontSize: '1.7em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -53,7 +53,7 @@ export default () => {
                         </div>
                         <button class="button is-black" 
                                 style={{backgroundColor: 'black', color: 'white'}} 
-                                type="submit">Chcę</button>
+                                type="submit">Wyślij</button>
                             
                     </div>
                     <h1 style={{color: 'red' ,fontSize: '1.75em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
@@ -78,7 +78,7 @@ export default () => {
               <form name="contact"  method="POST" data-netlify="true" >
               <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.5em', marginBottom: '0.5714em'}}>Zostaw swój email jeśli chcesz!</h1>
+                    <h1 style={{fontSize: '1.em', marginBottom: '0.5714em'}}>Potrzebuje!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -92,7 +92,7 @@ export default () => {
                         </div>
                         <button class="button is-black" 
                                 style={{backgroundColor: 'black', color: 'white'}} 
-                                type="submit">Chcę</button>
+                                type="submit">Wyślij</button>
                             
                     </div>
                     <h1 style={{color: 'red' ,fontSize: '1.5em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
