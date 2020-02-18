@@ -55,8 +55,8 @@ export default () => {
               <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
               Dostarczamy wszystkie niezbędne materiały, m.in komputer z dostępem do bazy marzeń, kolorową drukarkę, nożyczki, kleje, kartki i ramki na tablice marzeń. <br></br><br></br><br></br>
 
-              <form name="warsztaty"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
-                <input type="hidden" name="form-name" value="warsztaty" />
+              <form name="warsztatychar"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
+                <input type="hidden" name="form-name" value="warsztatychar" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
@@ -121,8 +121,8 @@ export default () => {
               <span style={{fontWeight: 'bold'}}><span style={{color: '#DA193E'}}>Potrzebne</span> materiały? </span><br></br>
               Dostarczamy wszystkie niezbędne materiały, m.in komputer z dostępem do bazy marzeń, kolorową drukarkę, nożyczki, kleje, kartki i ramki na tablice marzeń. <br></br><br></br><br></br>
 
-              <form name="warsztaty"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
-                <input type="hidden" name="form-name" value="warsztaty" />
+              <form name="warsztatychar"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
+                <input type="hidden" name="form-name" value="wwarsztatychar" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
