@@ -12,7 +12,7 @@ export default () => {
       <Layout>
         <section>
           <div class="container" style={{marginBottom: '150px', paddingLeft: '100px', paddingRight: '100px'}}>
-            <img src="/img/app2.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
+            <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
             
           </div>
         </section>
@@ -21,7 +21,7 @@ export default () => {
     <MobileView>
       <Layout>
           <div class="container">
-            <img src="/img/app2.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
+            <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
           </div>
       </Layout>
     </MobileView>

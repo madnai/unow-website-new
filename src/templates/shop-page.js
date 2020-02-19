@@ -17,7 +17,7 @@ export default () => {
           <div class="container" style={{marginBottom: '50px', paddingLeft: '100px', paddingRight: '100px'}}>
             <picture>
               {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
-              <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+              <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
@@ -37,7 +37,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>
@@ -55,7 +55,7 @@ export default () => {
           <div class="container">
             <picture>
               {/* <source srcSet="/img/soon.webp" type="image/webp" /> */}
-              <img src="/img/soon2.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+              <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
@@ -75,7 +75,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>

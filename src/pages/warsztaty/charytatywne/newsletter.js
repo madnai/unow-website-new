@@ -73,7 +73,7 @@ export default () => {
                                 style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
-                    <h1 style={{color: '#d8002a' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: 'black' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato', fontWeight: '600'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>
@@ -141,7 +141,7 @@ export default () => {
                                 style={{backgroundColor: 'black', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
-                    <h1 style={{color: '#d80028' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: 'black' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato', fontWeight: '600'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
                     </form>
               </div>
             </div>

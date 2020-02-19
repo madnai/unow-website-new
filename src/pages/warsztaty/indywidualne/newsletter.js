@@ -67,7 +67,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                     </div>
                     <h1 style={{color: '#d80028' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
@@ -132,7 +132,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                     </div>
                     <h1 style={{color: '#d80028' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
