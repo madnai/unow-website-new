@@ -37,7 +37,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>
@@ -75,7 +75,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>

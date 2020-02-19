@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import ReactAudioPlayer from 'react-audio-player';
 import readingTime from 'reading-time';
 import Skeleton from 'react-loading-skeleton';
+import { FaSpotify, FaApple } from 'react-icons/fa';
 
 export default class PodcastDetails extends React.Component {
 
@@ -23,11 +24,22 @@ export default class PodcastDetails extends React.Component {
                 <p>{podcast.publishedDate} | {podcast.itunes.duration / 100} min. słuchania</p>
                   <h1 style={{marginTop: 'unset'}}>{podcast.title || <Skeleton />}</h1>
                   <img src={podcast.itunes.image} style={{marginBottom: '20px'}}/>
+                  <div>
+                    <h2>Zasku</h2>
+                  </div>
                   <ReactAudioPlayer
                     src={podcast.enclosure.url}
                     style={{width: '100%'}}
                     controls
                   />
+                  <a href="https://open.spotify.com/show/2aZqs54m83sjaoyDEbF0C7"
+                   class="btn transparent-black-2" 
+                   target="_blank"
+                   style={{marginTop: '10px', width: '45%' ,fontFamily: 'Lato', marginBottom: '10px',border: '2px solid #333', fontWeight: '700', marginRight: '20px', padding: '8px 20px'}}><FaSpotify style={{marginRight: '8px'}}/>SŁUCHAJ NA SPOTIFY</a>
+                   <a href=""
+                   class="btn transparent-black-2" 
+                   target="_blank"
+                   style={{marginTop: '10px', width: '45%' ,fontFamily: 'Lato', marginBottom: '10px',border: '2px solid #333', fontWeight: '700', padding: '8px 20px'}}><FaApple style={{marginRight: '8px'}}/>SŁUCHAJ NA ITUNES</a>
                   <div dangerouslySetInnerHTML={{ __html: podcast.content }} />
                 </div>
               </div>

@@ -54,7 +54,7 @@ export default () => {
               <form name="warsztatyind"  method="POST" data-netlify="true" action="/warsztaty/indywidualne/newsletter" >
                 <input type="hidden" name="form-name" value="warsztatyind" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -67,10 +67,10 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
-                    <h1 style={{color: '#d8002a' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d80028' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
 
                     </form>
               </div>
@@ -119,7 +119,7 @@ export default () => {
               <form name="warsztaty"  method="POST" data-netlify="true" action="/warsztaty/indywidualne/newsletter" >
                 <input type="hidden" name="form-name" value="contact" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em'}}>Jestem zainteresowany</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -132,10 +132,10 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
-                    <h1 style={{color: '#d8002a' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
+                    <h1 style={{color: '#d80028' ,fontSize: '1.4em', marginBottom: '0.5714em'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
                     </form>
               </div>
             </div>

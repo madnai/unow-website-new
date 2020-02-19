@@ -15,8 +15,7 @@ export default () => {
       details={<>Kategoria pasja to zastanowienie się nad tym, co<br></br>
                 w naszym życiu robimy, tylko dlatego, że sprawia<br></br>
                 nam to przyjemność. Wykonując to czujemy się<br></br>
-                  wolni i szczęśliwi. Często pasja dodaje nam<br></br>
-                  energii i siły. <br></br>
+                  wolni i szczęśliwi. Często pasja dodaje nam energii i siły.<br></br>
                 Może być ona związana z pracą, którą<br></br>
                 wykonujemy, lub wręcz przeciwnie być<br></br>
                   odskocznią od codzienności. <br></br> </>}>

@@ -58,7 +58,7 @@ export default () => {
               <form name="warsztatychar"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
                 <input type="hidden" name="form-name" value="warsztatychar" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Jestem zainteresowany!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Jestem zainteresowany</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -71,7 +71,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
                     </form>
@@ -124,7 +124,7 @@ export default () => {
               <form name="warsztatychar"  method="POST" data-netlify="true" action="/warsztaty/charytatywne/newsletter">
                 <input type="hidden" name="form-name" value="wwarsztatychar" />
 
-                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Jestem zainteresowany!</h1>
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Jestem zainteresowany</h1>
                     <div className="field" style={{display: 'inline-flex'}}>
                         <div className="control">
                             <input
@@ -137,7 +137,7 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white'}} 
+                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
                                 type="submit">Wyślij</button>
                     </div>
                     </form>
