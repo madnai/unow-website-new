@@ -10,7 +10,16 @@ module.exports = {
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
-    `gatsby-plugin-material-ui`,
+    // `gatsby-plugin-material-ui`,
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        }
+      }
+    },
+    `gatsby-plugin-styled-components`,
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: 'gatsby-source-filesystem',
@@ -62,12 +71,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
       },
     },
     {
