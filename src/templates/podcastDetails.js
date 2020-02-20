@@ -5,6 +5,7 @@ import ReactAudioPlayer from 'react-audio-player';
 import readingTime from 'reading-time';
 import Skeleton from 'react-loading-skeleton';
 import { FaSpotify, FaApple } from 'react-icons/fa';
+import FacebookComments from '../components/FacebookComments';
 
 export default class PodcastDetails extends React.Component {
 
@@ -46,6 +47,7 @@ export default class PodcastDetails extends React.Component {
               </div>
             </div>
           </div>
+          <FacebookComments />
         </section>
       </Layout>
     );
