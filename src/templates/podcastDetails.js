@@ -20,8 +20,7 @@ export default class PodcastDetails extends React.Component {
             <div className="content">
               <div className="columns is-centered">
                 <div className="column is-6">
-                  {console.log(typeof stats.minutes)}
-                <p>{podcast.publishedDate} | {podcast.itunes.duration / 100} min. słuchania</p>
+                <p>{podcast.publishedDate} | {Math.floor(podcast.itunes.duration / 60)} min. słuchania</p>
                   <h1 style={{marginTop: 'unset'}}>{podcast.title || <Skeleton />}</h1>
                   <img src={podcast.itunes.image} style={{marginBottom: '20px'}}/>
                   <ReactAudioPlayer

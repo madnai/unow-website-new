@@ -12,8 +12,10 @@ export default () => {
       <Layout>
         <section>
           <div class="container" style={{marginBottom: '150px', paddingLeft: '100px', paddingRight: '100px'}}>
-            <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
-            
+            <picture>
+              <source srcSet="/img/app3.webp" type="image/webp" />
+              <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+            </picture>
           </div>
         </section>
       </Layout>
@@ -21,8 +23,11 @@ export default () => {
     <MobileView>
       <Layout>
           <div class="container">
-            <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"></img>
-          </div>
+          <picture>
+              <source srcSet="/img/app3.webp" type="image/webp" />
+              <img src="/img/app3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
+            </picture>
+           </div>
       </Layout>
     </MobileView>
     </>
