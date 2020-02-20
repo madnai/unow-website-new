@@ -157,28 +157,61 @@ export const IndexPageTemplate = ({
           <img src={praca} className="masonry-img" alt="praca" width="100%" />
         </Link> 
         <Link to="/kategoria/pasja" style={{lineHeight: '0'}}>
-          <img src={pasja} className="masonry-img" alt="pasja" width="100%" />
+          {/* <img src={pasja} className="masonry-img" alt="pasja" width="100%" /> */}
+          <picture>
+            <source srcSet="/img/gallery/hover/pasja.webp" type="image/webp" />
+            <img src={pasja} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>
         <Link to="/kategoria/ja" style={{lineHeight: '0'}}>
-          <img src={ja} className="masonry-img" alt="ja" width="100%" />
+          {/* <img src={ja} className="masonry-img" alt="ja" width="100%" /> */}
+          <picture>
+              <source srcSet="/img/gallery/hover/ja.webp" type="image/webp" />
+              <img src={ja} style={{marginTop: '3%'}} width="100%" align="center"/>
+            </picture>
+
         </Link>    
         <Link to="/kategoria/pieniadze" style={{lineHeight: '0'}}>
-          <img src={pieniadze} className="masonry-img" alt="pieniadze" width="100%" /> 
+          {/* <img src={pieniadze} className="masonry-img" alt="pieniadze" width="100%" />  */}
+          <picture>
+            <source srcSet="/img/gallery/hover/pieniadze.webp" type="image/webp" />
+            <img src={pieniadze} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>    
         <Link to="/kategoria/milosc" style={{lineHeight: '0'}}>
-          <img src={milosc} className="masonry-img" alt="milosc" width="100%" />
+          {/* <img src={milosc} className="masonry-img" alt="milosc" width="100%" /> */}
+          <picture>
+            <source srcSet="/img/gallery/hover/milosc.webp" type="image/webp" />
+            <img src={milosc} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>    
         <Link to="/kategoria/przyjaciele" style={{lineHeight: '0'}}>
-          <img src={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" />
+          {/* <img src={przyjaciele} className="masonry-img" alt="przyjaciele" width="100%" /> */}
+          <picture>
+            <source srcSet="/img/gallery/hover/przyjaciele.webp" type="image/webp" />
+            <img src={przyjaciele} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link> 
         <Link to="/kategoria/wiedza" >
-          <img src={wiedza} className="masonry-img"   alt="wiedza" width="100%" /> 
+          {/* <img src={wiedza} className="masonry-img"   alt="wiedza" width="100%" />  */}
+          <picture>
+            <source srcSet="/img/gallery/hover/wiedza.webp" type="image/webp" />
+            <img src={wiedza} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>   
         <Link to="/kategoria/rodzina" style={{lineHeight: '0'}}>
-          <img src={rodzina} className="masonry-img" alt="rodzina1" width="100%" />
+          {/* <img src={rodzina} className="masonry-img" alt="rodzina1" width="100%" /> */}
+          <picture>
+            <source srcSet="/img/gallery/hover/rodzina.webp" type="image/webp" />
+            <img src={rodzina} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>  
         <Link to="/kategoria/podroze" style={{lineHeight: '0'}}>
-          <img src={podroze} className="masonry-img" alt="podroze" width="100%"  /> 
+          {/* <img src={podroze} className="masonry-img" alt="podroze" width="100%"  />  */}
+          <picture>
+            <source srcSet="/img/gallery/hover/podroze.webp" type="image/webp" />
+            <img src={podroze} style={{marginTop: '3%'}} width="100%" align="center"/>
+          </picture>
         </Link>     
       </MasonryGallery>
     </MobileView>
