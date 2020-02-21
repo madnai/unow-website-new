@@ -6,10 +6,12 @@ module.exports = {
     description:
       'Tworzone, żeby pomagać. Z myślą o marzeniach.',
     url: "https://www.unow.pl",
+    siteUrl: "https://www.unow.pl"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
+    `gatsby-plugin-sitemap`,
     // `gatsby-plugin-material-ui`,
     {
       resolve: `gatsby-plugin-material-ui`,
