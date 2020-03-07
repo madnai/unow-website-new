@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import { Link } from 'gatsby';
@@ -237,15 +237,23 @@ IndexPageTemplate.propTypes = {
 const IndexPage = class extends React.Component {
   constructor(props) {
     super(props)
-    this.state = {}
+    this.state = {
+      hasMounted: false
+    }
     }
   
 
   componentDidMount() {
     this.setState({ isClient: true })
+    this.setState({hasMounted: true})
   }
 
+ 
+
   render() {
+    if (!this.state.hasMounted) {
+      return null;
+    }
     return (
       <React.Fragment key={this.state.isClient}>
           <Layout>

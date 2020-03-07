@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import logo from '../img/logo2.png';
 import Navbar from 'react-bootstrap/Navbar';
