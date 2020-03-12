@@ -36,7 +36,7 @@ export default class PodcastDetails extends React.Component {
                     marginBottom: '10px',border: '2px solid #333', fontWeight: '700',
                      marginRight: '20px', padding: '8px 20px'}}>
                        <FaSpotify style={{marginRight: '8px', marginBottom: '2px'}}/>SŁUCHAJ NA SPOTIFY</a>
-                   <a href=""
+                   <a href="https://podcasts.apple.com/pl/podcast/unow/id1501096908?l=pl"
                    class="btn transparent-black-2" 
                    target="_blank"
                    style={{marginTop: '10px', width: '47%' ,fontFamily: 'Lato', marginBottom: '10px',
