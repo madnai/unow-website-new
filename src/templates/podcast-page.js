@@ -36,7 +36,7 @@ const EpisodesTemplate = ({ episodes = [] }) => {
 const Episodes = () => {
   const { allAnchorEpisode } = useStaticQuery(graphql`
     query EpisodesQuery {
-      allAnchorEpisode(sort: { order: ASC, fields: pubDate }) {
+      allAnchorEpisode(sort: { order: DESC, fields: itunes___episode }) {
         nodes {
           id
           title
