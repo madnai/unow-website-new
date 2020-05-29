@@ -4,7 +4,7 @@ import {
     BrowserView,
     MobileView
   } from "react-device-detect";
-
+import MailChimpForm from '../components/MailChimpForm';
 
 export default () => {
     const [email, setEmail] = useState('');
@@ -21,7 +21,8 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
+              <MailChimpForm />
+              {/* <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
               <input type="hidden" name="form-name" value="contact" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
@@ -41,8 +42,8 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    {/* <p style={{color: '#d8002a'}}>{message}</p> */}
-                    </form>
+                    <p style={{color: '#d8002a'}}>{message}</p>
+                    </form> */}
               </div>
             </div>
            
@@ -59,7 +60,8 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true"  >
+                <MailChimpForm />
+              {/* <form name="contact"  method="POST" data-netlify="true"  >
               <input type="hidden" name="form-name" value="contact" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
@@ -79,8 +81,8 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    {/* <p style={{color: '#d8002a'}}>{message}</p> */}
-                    </form>
+                    <p style={{color: '#d8002a'}}>{message}</p>
+                    </form> */}
               </div>
             </div>
           </div>
