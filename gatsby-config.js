@@ -84,8 +84,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-mailchimp',
       options: {
-          endpoint: process.env.MAILCHIMP_ADDRESS
-          // endpoint: 'https://unow.us4.list-manage.com/subscribe/post?u=f6224231d9d0990931893424f&amp;id=0c79520568'
+          // endpoint: process.env.MAILCHIMP_ADDRESS
+          endpoint: 'https://unow.us4.list-manage.com/subscribe/post?u=f6224231d9d0990931893424f&amp;id=0c79520568'
       },
     },
     {

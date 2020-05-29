@@ -16,7 +16,7 @@ export default () => {
       <Layout>
         <section>
           <div class="container" style={{marginBottom: '50px', paddingLeft: '100px', paddingRight: '100px'}}>
-            <picture>
+            {/* <picture>
               <source srcSet="/img/shop3.webp" type="image/webp" />
               <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
@@ -46,7 +46,8 @@ export default () => {
 
                     </form>
               </div>
-            </div>
+            </div> */}
+            Dziekujemy
            
           </div>
         </section>
