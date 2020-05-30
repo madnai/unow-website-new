@@ -56,7 +56,7 @@ export default () => {
     <MobileView>
       <Layout>
           <div class="container">
-            <picture>
+            {/* <picture>
               <source srcSet="/img/shop3.webp" type="image/webp" />
               <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
@@ -86,7 +86,8 @@ export default () => {
 
                     </form>
               </div>
-            </div>
+            </div> */}
+             Dziekujemy
           </div>
       </Layout>
     </MobileView>

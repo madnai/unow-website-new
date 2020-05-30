@@ -1,7 +1,4 @@
-// import addToMailchimp from "gatsby-plugin-mailchimp"
-// import TextField from "@material-ui/core/TextField"
-// import Button from "@material-ui/core/Button"
-// import { Typography } from "@material-ui/core"
+
 import React from "react"
 import Modal from 'react-bootstrap/Modal'
 import ModalBody from 'react-bootstrap/ModalBody'
@@ -13,15 +10,6 @@ export default class MailChimpForm extends React.Component {
     super()
     this.state = { email: "", result: null, show: true }
   }
-//   _handleSubmit = async e => {
-//     e.preventDefault()
-//     // const result = await addToMailchimp(this.state.email)
-//     this.setState({result: result})
-//     console.log(result)
-//   }
-// handleChange = event => {
-//     this.setState({ email: event.target.value })
-//   }
 
   handleShow = () => {
       this.setState({show: true})
