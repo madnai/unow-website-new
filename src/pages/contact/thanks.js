@@ -5,10 +5,10 @@ import {
     BrowserView,
     MobileView
   } from "react-device-detect";
-
+import MailChimpForm from '../../components/MailChimpForm';
 
 export default () => {
-     const [email, setEmail] = useState('');
+     const [isThanks, setEmail] = useState(true);
 
   return (
     <>
@@ -16,13 +16,14 @@ export default () => {
       <Layout>
         <section>
           <div class="container" style={{marginBottom: '50px', paddingLeft: '100px', paddingRight: '100px'}}>
-            {/* <picture>
+            <picture>
               <source srcSet="/img/shop3.webp" type="image/webp" />
               <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true" >
+              <MailChimpForm isThanks={true} />
+              {/* <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
               <input type="hidden" name="form-name" value="contact" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
@@ -38,16 +39,14 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: 'black' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato', fontWeight: '600'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
-
-                    </form>
+                    <p style={{color: '#d8002a'}}>{message}</p>
+                    </form> */}
               </div>
-            </div> */}
-            Dziekujemy
+            </div>
            
           </div>
         </section>
@@ -56,13 +55,14 @@ export default () => {
     <MobileView>
       <Layout>
           <div class="container">
-            {/* <picture>
+            <picture>
               <source srcSet="/img/shop3.webp" type="image/webp" />
               <img src="/img/shop3.png" style={{marginTop: '3%'}} width="100%" align="center"/>
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="contact"  method="POST" data-netlify="true" >
+                <MailChimpForm  isThanks={true}/>
+              {/* <form name="contact"  method="POST" data-netlify="true"  >
               <input type="hidden" name="form-name" value="contact" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
@@ -78,16 +78,14 @@ export default () => {
                             />
                         </div>
                         <button class="button is-black" 
-                                style={{backgroundColor: '#d80028', color: 'white', marginLeft: '10px'}} 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
                                 type="submit">Wyślij</button>
                             
                     </div>
-                    <h1 style={{color: 'black' ,fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato', fontWeight: '600'}}>Dzięki! Odezwiemy się w ciągu 24 godzin.</h1>
-
-                    </form>
+                    <p style={{color: '#d8002a'}}>{message}</p>
+                    </form> */}
               </div>
-            </div> */}
-             Dziekujemy
+            </div>
           </div>
       </Layout>
     </MobileView>

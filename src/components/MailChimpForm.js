@@ -6,8 +6,8 @@ import ModalHeader from 'react-bootstrap/ModalHeader'
 import ModalTitle from 'react-bootstrap/ModalTitle'
 
 export default class MailChimpForm extends React.Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = { email: "", result: null, show: true }
   }
 
@@ -37,9 +37,10 @@ render() {
                 <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
               <input type="hidden" name="form-name" value="contact" />
 
-              <div className="field" style={{display: 'inline-flex'}}>
+              <div className="field">
                   <div className="control">
                       <input
+                          style={{display: 'block', marginRight: 'auto', marginLeft: 'auto', width: '50%'}}
                           class="input"
                           placeholder="Twój email"
                           name="email"
@@ -54,7 +55,7 @@ render() {
                           type="submit">Wyślij</button>
                       
               </div>
-              {/* <p style={{color: '#d8002a'}}>{message}</p> */}
+              {this.props.isThanks && <p style={{color: '#d8002a'}}>Dziękujemy. Odezwiemy się w ciągu 24h.</p>}
               </form>
              </div>
          </div>
