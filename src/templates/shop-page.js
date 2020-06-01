@@ -21,7 +21,7 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <MailChimpForm isThanks={false}/>
+              {/* <MailChimpForm isThanks={false}/> */}
               {/* <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
               <input type="hidden" name="form-name" value="contact" />
 
@@ -60,7 +60,7 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-                <MailChimpForm isThanks={false}/>
+                {/* <MailChimpForm isThanks={false}/> */}
               {/* <form name="contact"  method="POST" data-netlify="true"  >
               <input type="hidden" name="form-name" value="contact" />
 
