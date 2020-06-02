@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Layout from '../components/Layout';
+import Layout from '../../components/Layout';
 import {
     BrowserView,
     MobileView
@@ -20,7 +20,7 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="shop"  method="POST" data-netlify="true" action="/shop/newsletter">
+              <form name="contact"  method="POST" data-netlify="true" action="/shop/newsletter">
               <input type="hidden" name="form-name" value="contact" />
 
                     <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
@@ -40,6 +40,7 @@ export default () => {
                                 type="submit">Wyślij</button>
                             
                     </div>
+                    <p style={{color: '#d8002a'}}>Dziękujemy. Odezwiemy się w ciągu 24h.</p>
                     </form>
               </div>
             </div>
@@ -57,26 +58,28 @@ export default () => {
             </picture>
             <div class="columns is-centered">
               <div class="column has-text-centered">
-              <form name="shop"  method="POST" data-netlify="true" action="/shop/newsletter" >
+              <form name="contact"  method="POST" data-netlify="true" action="/shop/newsletter">
               <input type="hidden" name="form-name" value="contact" />
-                <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
-                <div className="field" style={{display: 'inline-flex'}}>
-                    <div className="control">
-                        <input
-                            class="input"
-                            placeholder="Twój email"
-                            name="email"
-                            type="email"
-                            value={email}
-                            onChange={e => setEmail(e.target.value)}
-                        />
+
+                    <h1 style={{fontSize: '1.4em', marginBottom: '0.5714em', fontFamily: 'Lato'}}>Potrzebuje</h1>
+                    <div className="field" style={{display: 'inline-flex'}}>
+                        <div className="control">
+                            <input
+                                class="input"
+                                placeholder="Twój email"
+                                name="email"
+                                type="email"
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
+                            />
+                        </div>
+                        <button class="button is-black" 
+                                style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
+                                type="submit">Wyślij</button>
+                            
                     </div>
-                    <button class="button is-black" 
-                            style={{backgroundColor: 'black', color: 'white', marginLeft: '10px', fontWeight: '600'}} 
-                            type="submit">Wyślij</button>
-                        
-                </div>
-              </form>
+                    <p style={{color: '#d8002a'}}>Dziękujemy. Odezwiemy się w ciągu 24h.</p>
+                    </form>
               </div>
             </div>
           </div>
