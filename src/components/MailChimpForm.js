@@ -35,7 +35,7 @@ render() {
                 </p>
                 <br></br>
                 <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="form-name" value="contact" /> 
 
               <div className="field">
                   <div className="control">

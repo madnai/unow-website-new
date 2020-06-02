@@ -152,7 +152,7 @@ export const IndexPageTemplate = ({
               <HoverImage src="/img/gallery/podroze.png" webp="/img/gallery/podroze.webp" hoverSrc={podroze} hoverWebp="/img/gallery/hover/podroze.webp" className="masonry-img" alt="podroze" width="100%"  /> 
             </Link>     
           </MasonryGallery>
-          <div class="columns is-centered">
+          {/* <div class="columns is-centered">
               <div class="column has-text-centered">
               <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
                 <input type="hidden" name="form-name" value="contact" />
@@ -174,10 +174,9 @@ export const IndexPageTemplate = ({
                               type="submit">Wyślij</button>
                           
                   </div>
-                  {/* <p style={{color: '#d8002a'}}>{message}</p> */}
                 </form>
               </div>
-          </div>
+          </div> */}
         </section>
       </BrowserView>
       <MobileView>
@@ -243,7 +242,7 @@ export const IndexPageTemplate = ({
             </picture>
           </Link>     
         </MasonryGallery>
-        <div class="columns is-centered">
+        {/* <div class="columns is-centered">
               <div class="column has-text-centered">
               <form name="contact"  method="POST" data-netlify="true" action="contact/thanks">
                 <input type="hidden" name="form-name" value="contact" />
@@ -265,10 +264,9 @@ export const IndexPageTemplate = ({
                               type="submit">Wyślij</button>
                           
                   </div>
-                  {/* <p style={{color: '#d8002a'}}>{message}</p> */}
                 </form>
               </div>
-          </div>
+          </div> */}
       </MobileView>
     </div>
   )
