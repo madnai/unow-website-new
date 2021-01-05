@@ -10,6 +10,12 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        indentedSyntax: true,
+      }
+    },
     'gatsby-plugin-sass',
     `gatsby-plugin-sitemap`,
     // `gatsby-plugin-material-ui`,
